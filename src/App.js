@@ -80,7 +80,7 @@ class App extends Component {
     componentDidMount() {
 
         this.setState({ info: info })
-        console.log(info)
+
     }
 
 
@@ -90,7 +90,7 @@ class App extends Component {
                 <div className="sidebar-wrapper">
                     <div className="profile-container">
                         <img className="profile" src={this.state.info.image} alt=""
-                            width="100px" height="100px" />
+                            width="80%" style={{ borderRadius: "50% 50%" }} />
                         <h1 className="name"> {this.state.info.name} </h1>
                         <h3 className="tagline">Developer</h3>
                     </div>

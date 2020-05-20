@@ -16,58 +16,58 @@ class App extends Component {
             info: {
                 "Experiences": [
                     {
-                        "baslik": "",
-                        "lokasyon": "",
-                        "tarih": "",
-                        "aciklama": ""
+                        "title": "",
+                        "location": "",
+                        "date": "",
+                        "explanation": ""
                     }
                 ],
                 "Projects": [
                     {
                         "projectName": "",
                         "url": "",
-                        "aciklama": ""
+                        "explanation": ""
                     }
                 ],
                 "Skills": [
                     {
                         "skill": "C",
-                        "yuzde": "60%"
+                        "percent": "60%"
                     },
                     {
                         "skill": "Java",
-                        "yuzde": "60%"
+                        "percent": "60%"
                     },
                     {
                         "skill": "Python",
-                        "yuzde": "50%"
+                        "percent": "50%"
                     },
                     {
                         "skill": "JavaScript",
-                        "yuzde": "40%"
+                        "percent": "40%"
                     },
                     {
                         "skill": "Django",
-                        "yuzde": "30%"
+                        "percent": "30%"
                     },
                     {
                         "skill": "MVC",
-                        "yuzde": "20%"
+                        "percent": "20%"
                     }
                 ],
 
                 "Education": [
                     {
-                        "baslik": "Science-Mathematics",
-                        "icerik": "Tire Kutsan Anatolian High School",
-                        "tarih": "2009 - 2013"
+                        "title": "Science-Mathematics",
+                        "content": "Tire Kutsan Anatolian High School",
+                        "date": "2009 - 2013"
                     }
                 ],
 
                 "Languages": [
                     {
-                        "dil": "Turkish",
-                        "derece": "Native"
+                        "language": "Turkish",
+                        "level": "Native"
                     }
                 ],
 
@@ -92,48 +92,48 @@ class App extends Component {
                         <img className="profile" src={this.state.info.image} alt=""
                             width="80%" style={{ borderRadius: "50% 50%" }} />
                         <h1 className="name"> {this.state.info.name} </h1>
-                        <h3 className="tagline">Developer</h3>
+                        <h3 className="tagline">Front-End Developer</h3>
+                    </div>
+                    <div className="education-container container-block" style={{ textAlign: "justify" }}>
+                        <h2 className="container-block-title"><i className="fa fa-user"></i> About Me</h2>
+                        {this.state.info.aboutMe}
                     </div>
 
                     <div className="contact-container container-block">
+                        <h2 className="container-block-title"><i className="fa fa-wechat"></i>Contact Me</h2>
                         <ul className="list-unstyled contact-list">
                             <li className="email"><i className="fa fa-envelope"></i><a href={"mailto:" + this.state.info.email}>{this.state.info.email}</a></li>
                             <li className="phone"><i className="fa fa-phone"></i><a href={this.state.info.phone}>{this.state.info.phone}</a></li>
                             <li className="website"><i className="fa fa-globe"></i><a href={this.state.info.website} target="_blank">{this.state.info.website}</a></li>
-                            <li className="twitter"><i className="fa fa-twitter"></i><a href={this.state.info.twitterlink} target="_blank">{this.state.info.twitter}</a></li>
+
                         </ul>
                     </div>
                     <div className="education-container container-block">
-                        <h2 className="container-block-title">Education</h2>
+
+                        <h2 className="container-block-title"><i className="fa fa-book"></i>Education</h2>
                         {this.state.info.Education.map((item, key) => <Education item={item} key={key} />)}
                     </div>
 
 
                     <div className="languages-container container-block">
-                        <h2 className="container-block-title">Languages</h2>
+                        <h2 className="container-block-title"><i className="fa fa-cubes"></i>Languages</h2>
                         <ul className="list-unstyled interests-list">
                             {this.state.info.Languages.map((item, key) => <Language item={item} key={key} />)}
                         </ul>
                     </div>
 
-                    <div className="interests-container container-block">
-                        <h2 className="container-block-title">Interests</h2>
-                        <ul className="list-unstyled interests-list">
-                            {this.state.info.Interests.map((item, key) => <Interests item={item} key={key} />)}
-                        </ul>
-                    </div>
 
                 </div>
 
                 <div className="main-wrapper">
 
 
-                    <section className="section summary-section">
+                    {/* <section className="section summary-section">
                         <h2 className="section-title"><i className="fa fa-user"></i>Career Profile</h2>
                         <div className="summary">
                             <p>{this.state.info.Career}</p>
                         </div>
-                    </section>
+                    </section> */}
 
                     <section className="section experiences-section">
                         <h2 className="section-title"><i className="fa fa-briefcase"></i>Experiences</h2>

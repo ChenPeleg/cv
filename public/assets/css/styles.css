@@ -1,5 +1,7 @@
-root {
-  --main-bg-color: #76c9b7;
+:root {
+ --main-bg-color: #76c9b7;
+ --main-text-dark : rgb(61, 60, 60);
+ --main-text-light: white;
 }
 @font-face {
   font-family: "Roboto-slabs";
@@ -96,6 +98,12 @@ p {
   margin-right: 11px;
   font-size: 18px;
   vertical-align: middle;
+  color: var(--main-text-light);
+}
+.sidebar-wrapper  .container-block-title .fa {
+  margin-right: 8px;
+  font-size: 18px;
+  /* vertical-align: middle; */
 }
 .sidebar-wrapper .contact-list li {
   margin-bottom: 15px;
@@ -107,14 +115,17 @@ p {
   font-size: 14px;
 }
 .sidebar-wrapper .container-block {
-  padding: 30px;
+  color: var(--main-text-dark);
+  padding: 25px;
 }
 .sidebar-wrapper .container-block-title {
   text-transform: uppercase;
+  text-align: center;
   font-size: 16px;
   font-weight: 700;
   margin-top: 0;
   margin-bottom: 15px;
+  color: var(--main-text-light);
 }
 .sidebar-wrapper .degree {
   font-size: 14px;
@@ -199,18 +210,25 @@ p {
   margin-bottom: 60px;
 }
 .main-wrapper .experiences-section .item {
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 .main-wrapper .upper-row {
   position: relative;
   overflow: hidden;
   margin-bottom: 2px;
 }
+.main-wrapper .job-main-title {
+  color: #3F4650;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+}
 .main-wrapper .job-title {
   color: #3F4650;
   font-size: 16px;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom:  10px;
   font-weight: 500;
 }
 .main-wrapper .time {

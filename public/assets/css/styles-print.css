@@ -1,0 +1,24 @@
+
+.sidebar-wrapper {
+  background: rgb(112, 226, 211) !important;
+  background: radial-gradient(circle,rgb(133, 206, 190) 0%, rgb(140, 212, 197) 46%,	rgb(130, 206, 189) 100%)!important;
+  position: absolute !important; 
+  left: 0 !important;
+  width: 280px !important;
+}
+.main-wrapper {
+  background: #fff !important;
+  background: radial-gradient(circle,rgb(241, 252, 249) 0%, rgb(213, 228, 220) 46%,	rgb(221, 240, 236) 100%)!important;
+  padding: 60px !important;
+  padding-left: 300px !important;
+}
+body {
+  margin: 0px  !important;
+
+}
+@page {
+  margin-top: 0in;
+  margin-bottom: 0in;
+  margin-left: 0in;
+  margin-right: 0in;    
+}

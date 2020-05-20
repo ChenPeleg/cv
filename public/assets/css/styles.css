@@ -22,6 +22,7 @@ body {
   padding: 30px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-print-color-adjust: exact !important;
    
 }
 h1,
@@ -56,7 +57,6 @@ p {
   max-width: 960px;
   margin: 0 auto;
   position: relative;
-  
   box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.4);
 }
 .sidebar-wrapper {
@@ -317,5 +317,7 @@ p {
     top: 1px;
   }
 }
+
+ 
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */

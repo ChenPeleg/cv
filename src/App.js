@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+
 import info from './info.json';
 import Experience from "./Experience";
-import Interests from "./Interets";
+// import Interests from "./Interets";
 import Projects from "./Projects";
 import Skill from "./Skill";
 import Language from "./Language";
 import Education from "./Education";
-// import firebase from 'firebase';
+
 class App extends Component {
     constructor(props) {
         super(props);

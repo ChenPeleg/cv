@@ -4,7 +4,7 @@
     "email": "chenpeleg@gmail.com",
     "phone": "+972 54-6734399",
     "website": "chenpeleg.github.io/cv",
-    "aboutMe": "Founder of Adam Hevra Veteva school for Endangered Youth. From my first days as a teacher I have used and developed technological systems for the school and the Network Dror Batey Hinuch, alongside being a teacher and an educator. Last three years focusing on developing educational games and software to help the students learn in better and more enjoyable ways. I’m interested in working on larger projects in the industry  as a fulltime of Front End development.",
+    "aboutMe": "Founder of Adam Hevra Veteva school for Endangered Youth. Passionate about technology of all kinds.  Developed technological systems for my school and the school’s Network, alongside being a teacher and an educator. In recent years have been focusing on developing educational games and software to help the students learn in better and more enjoyable ways. ",
     "Experiences": [
         {
             "title": "Adam hevra VeTeva",
@@ -16,7 +16,7 @@
         {
             "title": "Dror Batey Hinuch",
             "subtitle": "school management systems",
-            "location": "Kibutz Galuyot 120 Tel Aviv",
+            "location": "Kibbutz Galuyot 120 Tel Aviv",
             "date": "2016-2020",
             "explanation": "Designing and building a students attendance and school management systems, with google apps scripts and google drive/classroom api. The systems were implemented at three schools in DBH."
         },
@@ -32,24 +32,28 @@
     "ProjectsDescription": "Github üzerinde bulunan projelerim.",
     "Projects": [
         {
-            "projectName": "Haber Oku - HürriyetAPI",
-            "url": "https://github.com/altnokburcu/haberOku",
-            "explanation": "Android Studio'da Hurriyet API kullandığım projedir.Projenin içerisinde Hurriyet API kullanımına ulaşabilirsiniz."
+            "projectName": "ClassUp",
+            "url": "https://github.com/ChenPeleg/Classup",
+            "explanation": "This app was created to help teachers and educators teach with computers or smartphones. Built with React 16."
         },
         {
-            "projectName": "Basit Toplama Oyunu",
-            "url": "https://github.com/altnokburcu/simple-aggregation-game",
-            "explanation": "ReactJS kullanarak yazdığım basit toplama oyunudur."
+            "projectName": "Medium Articles",
+            "url": "https://medium.com/@chenpeleg",
+            "explanation": "My medium articles about my Google App Scripts experience, mainly about productivity scripts examples."
+        }
+    ],
+    "technology": [
+        {
+            "TechName": "Front-End Aplication development",
+            "TechExplanation": "vanila JavaScript,  Angular 2+, React, React testing with Jest and Anzime, Vue,  general web-development (HTML, CSS,  UI, etc.), Google apps scripts."
         },
         {
-            "projectName": "Sipariş Uygulaması",
-            "url": "https://github.com/altnokburcu/kafe-otomasyonu-master",
-            "explanation": "Kafe/Restaurantlarda kullanılabilecek bir android-firebase projesidir. "
+            "TechName": "Node.js",
+            "TechExplanation": " RESTful API design and development, async architecture (callbacks,  promises, async- await)."
         },
         {
-            "projectName": "Öneriyorum",
-            "url": "https://github.com/altnokburcu/Oneriyorum",
-            "explanation": "Linux Yaz Kampı 2017'de Django ile Web Programlama kursunda geliştirdiğimiz önerilerin listelendiği django projesidir."
+            "TechName": "Additional fields",
+            "TechExplanation": " Git and Github actions, Python (Django), Linux bash, MongoDB compatible DBs, Aws: Ec2, S3. "
         }
     ],
     "Skills": [

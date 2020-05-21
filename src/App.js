@@ -1,18 +1,24 @@
 import React, { Component } from 'react';
 
 import info from './info.json';
-import Experience from "./Experience";
+import Experience from "./components/Experience";
 // import Interests from "./Interets";
-import Projects from "./Projects";
-import Skill from "./Skill";
-import Language from "./Language";
-import Education from "./Education";
+import Projects from "./components/Projects";
+import Skill from "./components/Skill";
+import Language from "./components/Language";
+import Education from "./components/Education";
+import Technologies from "./components/Technologies";
 
 class App extends Component {
     constructor(props) {
         super(props);
         this.state = {
             info: {
+                "technology": [
+                    {
+                        "TechName": "Tech1",
+                        "TechExplanation": "Android Studio'da Hurriyet API kullandığım projedir.Projenin içerisinde Hurriyet API kullanımına ulaşabilirsiniz."
+                    }],
                 "Experiences": [
                     {
                         "title": "",
@@ -141,21 +147,24 @@ class App extends Component {
 
                     </section>
 
+                    <section className="skills-section section">
+                        <h2 className="section-title"><i className="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
+
+                        {this.state.info.technology.map((item, key) => <Technologies item={item} key={key} />)}
+                        {/* <div className="skillset">
+                            {this.state.info.Skills.map((item, key) => <Skill item={item} key={key} />)}
+                        </div> */}
+                    </section>
 
                     <section className="section projects-section">
-                        <h2 className="section-title"><i className="fa fa-archive"></i>Projects</h2>
+                        <h2 className="section-title"><i className="fa fa-archive"></i>Projects and articles</h2>
                         <div className="intro">
                             <p>{this.state.info.ProjectDescription}</p>
                         </div>
                         {this.state.info.Projects.map((item, key) => <Projects item={item} key={key} />)}
                     </section>
 
-                    <section className="skills-section section">
-                        <h2 className="section-title"><i className="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
-                        <div className="skillset">
-                            {this.state.info.Skills.map((item, key) => <Skill item={item} key={key} />)}
-                        </div>
-                    </section>
+
 
                 </div>
             </div>

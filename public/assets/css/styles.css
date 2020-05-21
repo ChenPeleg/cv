@@ -2,6 +2,7 @@
  --main-bg-color: #76c9b7;
  --main-text-dark : rgb(61, 60, 60);
  --main-text-light: white;
+ --main-text-medium:rgb(3, 75, 32);
 }
 @font-face {
   font-family: "Roboto-slabs";
@@ -73,7 +74,8 @@ p {
   color: #fff;
 }
 .sidebar-wrapper .profile-container {
-  padding: 30px;
+  padding: 20px;
+  padding-bottom: 5px;
   /* background: rgba(0, 0, 0, 0.2); */
   text-align: center;
   color: #fff;
@@ -85,7 +87,7 @@ p {
   margin-bottom: 10px;
 }
 .sidebar-wrapper .tagline {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--main-text-medium);
   font-size: 16px;
   font-weight: 400;
   margin-top: 0;
@@ -106,7 +108,12 @@ p {
   /* vertical-align: middle; */
 }
 .sidebar-wrapper .contact-list li {
+  
   margin-bottom: 15px;
+}
+.sidebar-wrapper .contact-list a {
+  color: var(--main-text-dark);
+  
 }
 .sidebar-wrapper .contact-list li:last-child {
   margin-bottom: 0;
@@ -117,6 +124,8 @@ p {
 .sidebar-wrapper .container-block {
   color: var(--main-text-dark);
   padding: 25px;
+  padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 .sidebar-wrapper .container-block-title {
   text-transform: uppercase;
@@ -139,18 +148,18 @@ p {
   margin-bottom: 0;
 }
 .sidebar-wrapper .education-container .meta {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--main-text-medium);
   font-weight: 500;
   margin-bottom: 0px;
   margin-top: 0;
 }
 .sidebar-wrapper .education-container .time {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--main-text-medium);
   font-weight: 500;
   margin-bottom: 0px;
 }
 .sidebar-wrapper .languages-container .lang-desc {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--main-text-medium);
 }
 .sidebar-wrapper .languages-list {
   margin-bottom: 0;
@@ -207,7 +216,7 @@ p {
   top: -2px;
 }
 .main-wrapper .section {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 .main-wrapper .experiences-section .item {
   margin-bottom: 25px;
@@ -244,6 +253,14 @@ p {
 .main-wrapper .project-title {
   font-size: 16px;
   font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.main-wrapper .technology-title {
+  
+  font-size: 16px;
+  font-weight: bold;
+  
   margin-top: 0;
   margin-bottom: 5px;
 }

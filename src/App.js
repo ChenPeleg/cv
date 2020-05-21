@@ -1,86 +1,18 @@
 import React, { Component } from 'react';
-
 import info from './info.json';
 import Experience from "./components/Experience";
-// import Interests from "./Interets";
 import Projects from "./components/Projects";
-import Skill from "./components/Skill";
-import Language from "./components/Language";
 import Education from "./components/Education";
 import Technologies from "./components/Technologies";
+import PersonalInfo from "./components/PersonalInfo";
+// import Interests from "./Interets";
+// import Skill from "./components/Skill";
+// import Language from "./components/Language";
 
 class App extends Component {
     constructor(props) {
         super(props);
-        this.state = {
-            info: {
-                "technology": [
-                    {
-                        "TechName": "Tech1",
-                        "TechExplanation": "Android Studio'da Hurriyet API kullandığım projedir.Projenin içerisinde Hurriyet API kullanımına ulaşabilirsiniz."
-                    }],
-                "Experiences": [
-                    {
-                        "title": "",
-                        "location": "",
-                        "date": "",
-                        "explanation": ""
-                    }
-                ],
-                "Projects": [
-                    {
-                        "projectName": "",
-                        "url": "",
-                        "explanation": ""
-                    }
-                ],
-                "Skills": [
-                    {
-                        "skill": "C",
-                        "percent": "60%"
-                    },
-                    {
-                        "skill": "Java",
-                        "percent": "60%"
-                    },
-                    {
-                        "skill": "Python",
-                        "percent": "50%"
-                    },
-                    {
-                        "skill": "JavaScript",
-                        "percent": "40%"
-                    },
-                    {
-                        "skill": "Django",
-                        "percent": "30%"
-                    },
-                    {
-                        "skill": "MVC",
-                        "percent": "20%"
-                    }
-                ],
-
-                "Education": [
-                    {
-                        "title": "Science-Mathematics",
-                        "content": "Tire Kutsan Anatolian High School",
-                        "date": "2009 - 2013"
-                    }
-                ],
-
-                "Languages": [
-                    {
-                        "language": "Turkish",
-                        "level": "Native"
-                    }
-                ],
-
-                "Interests": [
-                    { "hobi": "Travelling" }
-                ]
-            }
-        };
+        this.state = { info: info }
     }
     componentDidMount() {
 
@@ -94,8 +26,8 @@ class App extends Component {
             <div className="wrapper">
                 <div className="sidebar-wrapper">
                     <div className="profile-container">
-                        <img className="profile" src={this.state.info.image} alt=""
-                            width="80%" style={{ borderRadius: "50% 50%" }} />
+                        <img className="profile" src={this.state.info.image} alt="Chen Peleg imag"
+                            class="profile-image" />
                         <h1 className="name"> {this.state.info.name} </h1>
                         <h3 className="tagline">Front-End Developer</h3>
                     </div>
@@ -105,11 +37,12 @@ class App extends Component {
                     </div>
 
                     <div className="contact-container container-block">
-                        <h2 className="container-block-title"><i className="fa fa-wechat"></i>Contact Me</h2>
+                        <h2 className="container-block-title"><i className="fa fa-commenting"></i>Contact Me</h2>
                         <ul className="list-unstyled contact-list">
                             <li className="email"><i className="fa fa-envelope"></i><a href={"mailto:" + this.state.info.email}>{this.state.info.email}</a></li>
                             <li className="phone"><i className="fa fa-phone"></i><a href={this.state.info.phone}>{this.state.info.phone}</a></li>
-                            <li className="website"><i className="fa fa-globe"></i><a href={this.state.info.website} target="_blank">{this.state.info.website}</a></li>
+                            <li className="website"><i className="fa fa-globe"></i><a href={this.state.info.website} target="_blank" rel="noopener noreferrer">{this.state.info.website}</a></li>
+                            <li className="website"><i className="fa  fa-linkedin-square"></i><a href={this.state.info.linkedin} target="_blank" rel="noopener noreferrer">{this.state.info.linkedinName} (LinkedIn)</a></li>
 
                         </ul>
                     </div>
@@ -120,12 +53,12 @@ class App extends Component {
                     </div>
 
 
-                    <div className="languages-container container-block">
+                    {/* <div className="languages-container container-block">
                         <h2 className="container-block-title"><i className="fa fa-cubes"></i>Languages</h2>
                         <ul className="list-unstyled interests-list">
                             {this.state.info.Languages.map((item, key) => <Language item={item} key={key} />)}
                         </ul>
-                    </div>
+                    </div> */}
 
 
                 </div>
@@ -133,12 +66,6 @@ class App extends Component {
                 <div className="main-wrapper">
 
 
-                    {/* <section className="section summary-section">
-                        <h2 className="section-title"><i className="fa fa-user"></i>Career Profile</h2>
-                        <div className="summary">
-                            <p>{this.state.info.Career}</p>
-                        </div>
-                    </section> */}
 
                     <section className="section experiences-section">
                         <h2 className="section-title"><i className="fa fa-briefcase"></i>Experiences</h2>
@@ -162,6 +89,14 @@ class App extends Component {
                             <p>{this.state.info.ProjectDescription}</p>
                         </div>
                         {this.state.info.Projects.map((item, key) => <Projects item={item} key={key} />)}
+                    </section>
+
+                    <section className="section info-section">
+                        <h2 className="section-title"><i className="fa fa-user-plus"></i>Personal information</h2>
+                        <div className="intro">
+                            <p>{this.state.info.ProjectDescription}</p>
+                        </div>
+                        {this.state.info.personalInfo.map((item, key) => <PersonalInfo item={item} key={key} />)}
                     </section>
 
 

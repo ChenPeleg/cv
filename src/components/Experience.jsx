@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 class Experience extends Component {
   render() {
-    console.log(this.props.item.date)
+
     return (
       <div className="item">
         <div className="meta">
@@ -13,9 +13,9 @@ class Experience extends Component {
           </div> : null}
           <div className="company">{this.props.item.location}</div>
         </div>
-        <h4 className=" job-title">{this.props.item.subtitle}</h4>
+        <span className="job-title">{this.props.item.subtitle ? this.props.item.subtitle + ":" : null}</span> {this.props.item.explanation}
         <div className="details">
-          {this.props.item.explanation}
+
         </div>
       </div>
 

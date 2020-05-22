@@ -349,3 +349,6 @@ p {
 /* Extra small devices (phones, less than 768px) */
  
 
+@page {
+  margin:0  ;      
+}

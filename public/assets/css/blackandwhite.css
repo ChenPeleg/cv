@@ -1,0 +1,64 @@
+
+
+/* Extra just for printing*/
+.wrapper {
+    margin-left: -20px !important;
+  }
+  .sidebar-wrapper{
+    width: 240px  !important;
+    padding-left: 5px !important;
+    margin-left: 0px !important;
+  
+  }  
+  
+  .main-wrapper{
+     padding-left: 250px !important; 
+    padding-right: 0em !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .buttons-wrapper{
+    display: none !important;
+  }
+  footer{
+    display: none !important;
+  }
+  body {
+    margin:0 !important;
+    padding:0  !important;
+  }
+  .copyright{
+    display:none!important;
+  }
+  
+  a[href]:after {
+    content: none   !important;
+  }
+  .sidebar-wrapper .contact-list .fa {
+    margin-right: 11px  !important;
+    font-size: 18px  !important;
+    vertical-align: middle  !important;
+    color: var(--main-text-light)  !important;
+  }
+  
+  
+  
+  /* for black and white printing */
+  .sidebar-wrapper, .main-wrapper {
+  background-color: white !important;
+  background: white !important;
+  }
+  :root{
+    --main-text-light: rgb(24, 19, 19)  !important;
+    --main-text-dark : rgb(68, 63, 63)  !important;
+    --main-text-medium:rgb(4, 54, 24)  !important;
+     
+  }
+  a[href] {
+    color: black !important;
+  }
+  .profile-image  {
+    display: none;
+  }
+  /* for black and white printing */
+  

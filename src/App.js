@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import Education from "./components/Education";
 import Technologies from "./components/Technologies";
 import PersonalInfo from "./components/PersonalInfo";
+import Buttons from "./components/Bottons/Buttons"
 // import Interests from "./Interets";
 // import Skill from "./components/Skill";
 // import Language from "./components/Language";
@@ -24,10 +25,11 @@ class App extends Component {
     render() {
         return (
             <div className="wrapper">
+                <Buttons ></Buttons>
                 <div className="sidebar-wrapper">
                     <div className="profile-container">
-                        <img className="profile" src={this.state.info.image} alt="Chen Peleg imag"
-                            class="profile-image" />
+                        <img className="profile profile-image" src={this.state.info.image} alt="Chen Peleg imag"
+                        />
                         <h1 className="name"> {this.state.info.name} </h1>
                         <h3 className="tagline">Front-End Developer</h3>
                     </div>

@@ -87,9 +87,8 @@ class App extends Component {
 
                     <section className="section projects-section">
                         <h2 className="section-title"><i className="fa fa-archive"></i>Projects and articles</h2>
-                        <div className="intro">
-                            <p>{this.state.info.ProjectDescription}</p>
-                        </div>
+
+
                         {this.state.info.Projects.map((item, key) => <Projects item={item} key={key} />)}
                     </section>
 

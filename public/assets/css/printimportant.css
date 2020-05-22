@@ -3,6 +3,7 @@
   --main-text-dark : rgb(61, 60, 60) !important;
   --main-text-light: white !important;
   --main-text-medium:rgb(3, 75, 32) !important;
+  --main-text-pale: rgb(121, 142, 170) !important;
  }
  @font-face {
    font-family: "Roboto-slabs" !important;
@@ -173,13 +174,15 @@
    color: var(--main-text-dark) !important;
    padding: 25px !important;
    padding-bottom: 10px !important;
-   padding-bottom: 10px !important;
+   padding-top: 15px !important;
+   
  }
  .sidebar-wrapper .container-block-title {
    text-transform: uppercase !important;
    text-align: center !important;
    font-size: 16px !important;
    font-weight: 700 !important;
+   margin-right: 13px !important;
    margin-top: 0 !important;
    margin-bottom: 15px !important;
    color: var(--main-text-light) !important;
@@ -233,6 +236,7 @@
    padding: 60px !important;
    padding-left: 300px !important;
    padding-top: 30px !important;
+   padding-bottom: 20px !important;
  }
  .main-wrapper .section-title {
    text-transform: uppercase !important;
@@ -241,7 +245,7 @@
    color: #2d7788 !important;
    position: relative !important;
    margin-top: 0 !important;
-   margin-bottom: 20px !important;
+   margin-bottom: 15px !important;
  }
  .main-wrapper .section-title .fa {
    width: 30px !important;
@@ -287,11 +291,11 @@
    position: absolute !important;
    right: 0 !important;
    top: 0 !important;
-   color: #97AAC3 !important;
+   color:var(--main-text-pale) !important;
  }
  .main-wrapper .company {
    margin-bottom: 10px !important;
-   color: #97AAC3 !important;
+   color:var(--main-text-pale) !important;
  }
  .main-wrapper .project-title {
    font-size: 16px !important;

@@ -3,6 +3,7 @@
  --main-text-dark : rgb(61, 60, 60);
  --main-text-light: white;
  --main-text-medium:rgb(3, 75, 32);
+ --main-text-pale: #97AAC3;
 }
 @font-face {
   font-family: "Roboto-slabs";
@@ -180,6 +181,7 @@ p {
   text-align: center;
   font-size: 16px;
   font-weight: 700;
+  margin-right: 13px;
   margin-top: 0;
   margin-bottom: 15px;
   color: var(--main-text-light);
@@ -287,11 +289,11 @@ p {
   position: absolute;
   right: 0;
   top: 0;
-  color: #97AAC3;
+  color:var(--main-text-pale);
 }
 .main-wrapper .company {
   margin-bottom: 10px;
-  color: #97AAC3;
+  color:var(--main-text-pale);
 }
 .main-wrapper .project-title {
   font-size: 16px;

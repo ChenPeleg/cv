@@ -6,14 +6,14 @@
     "website": "https://chenpeleg.github.io/cv",
     "linkedin": "https://www.linkedin.com/in/chen-peleg-03915b1a1/",
     "linkedinName": "ChenPeleg",
-    "aboutMe": "Founder of Adam Hevra Veteva school for Endangered Youth. Passionate about technology and it's ability to improve our lives. Developed technological systems for my school and the school’s Network, alongside being a teacher and an educator. In recent years have been focusing on developing educational games and software to help the students learn in better and more enjoyable ways. Now interested in full development work.",
+    "aboutMe": "Founder of Adam Hevra Veteva school for at-risk youth. Passionate about technology and its ability to improve our lives. Developed technological systems for multiple schools, alongside being a teacher and an educator. In recent years I have been focusing on developing educational games and software to help the students learn better and in more enjoyable and varied ways. Now I am interested in full-time work in development.",
     "Experiences": [
         {
             "title": "Adam hevra VeTeva",
             "subtitle": "",
             "location": "Tsahal 109 Karmiel",
             "date": "2008-2015",
-            "explanation": "One of the founders of the school. My roll as Technological  learning leader. A Teacher and memeber of the teachers leading team."
+            "explanation": "One of the founders of the school. In charge of technological-based learning, alongside being a teacher."
         },
         {
             "title": "Dror Batey Hinuch",
@@ -27,7 +27,7 @@
             "subtitle": "Educational software and Educational games Developer",
             "location": "",
             "date": "",
-            "explanation": "Design, characterising and implementing educational games. The games were designed mostly for English lessons, but also for other classes and subjects."
+            "explanation": "Design, characterising and implementing educational games. The games were designed mostly for English lessons, but were easily adaptable  for other subjects."
         }
     ],
     "Career": "Started as a Teacher ",
@@ -67,12 +67,12 @@
     "Education": [
         {
             "title": "Beit-Berl college",
-            "content": "B.A in History and Inofrmal education",
+            "content": "B.A in History and Informal Education",
             "date": "2009 - 2013"
         },
         {
             "title": "Software Development",
-            "content": "Self taught, with Udemy, Codecademy ect.",
+            "content": "Self taught, with Udemy, Codecademy etc.",
             "date": "2013 - 2018"
         }
     ],
@@ -90,7 +90,7 @@
     "personalInfo": [
         {
             "title": "Address",
-            "content": "Kibbutz Eshbal Mobile post Misgav"
+            "content": "Kibbutz Eshbal, Misgav"
         },
         {
             "title": "Date of Birth",
@@ -98,7 +98,7 @@
         },
         {
             "title": "Languages",
-            "content": "Hebrew -Native, English - Fluent."
+            "content": "Hebrew -Mother tongue, English - Fluent (Reading, writing and speaking)."
         }
     ]
 }

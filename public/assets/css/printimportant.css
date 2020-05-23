@@ -290,7 +290,7 @@
  .main-wrapper .time {
    position: absolute !important;
    right: 0 !important;
-   top: 0 !important;
+   top: -2px !important;
    color:var(--main-text-pale) !important;
  }
  .main-wrapper .company {

@@ -42,7 +42,7 @@ class App extends Component {
                         <h2 className="container-block-title"><i className="fa fa-commenting"></i>Contact Me</h2>
                         <ul className="list-unstyled contact-list">
                             <li className="email"><i className="fa fa-envelope"></i><a href={"mailto:" + this.state.info.email}>{this.state.info.email}</a></li>
-                            <li className="phone"><i className="fa fa-phone"></i><a href={this.state.info.phone}>{this.state.info.phone}</a></li>
+                            <li className="phone"><i className="fa fa-phone"></i><a href={"tel:" + this.state.info.phone}>{this.state.info.phone}</a></li>
                             <li className="website"><i className="fa fa-globe"></i><a href={this.state.info.website} target="_blank" rel="noopener noreferrer">{this.state.info.website}</a></li>
                             <li className="website"><i className="fa  fa-linkedin-square"></i><a href={this.state.info.linkedin} target="_blank" rel="noopener noreferrer">{this.state.info.linkedinName} (LinkedIn)</a></li>
 

@@ -21,7 +21,7 @@ in development.
   Self taught, with Udemy,
   Codecademy etc.
   2013 - 2018
-
+# EXPERIENCE
 ## Front-End Aplicaon development: 
 vanila JavaScript, Angular 2+, React, React tesng with Jest and Anzime, Vue, general
 web-development (HTML, CSS, UI, etc.), Google apps scripts.

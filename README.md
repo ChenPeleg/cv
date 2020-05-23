@@ -13,11 +13,23 @@ in development.
 - https://chenpeleg.github.io/cv
 - ChenPeleg (LinkedIn)
 ### EDUCATION
--Beit-Berl college
- B.A in History and Informal
- Educaon
- 2009 - 2013
--Soware Development
-Self taught, with Udemy,
-Codecademy etc.
-2013 - 2018
+ #### Beit-Berl college
+  B.A in History and Informal
+  Educaon
+  2009 - 2013
+#### Soware Development
+  Self taught, with Udemy,
+  Codecademy etc.
+  2013 - 2018
+
+## Front-End Aplicaon development: 
+vanila JavaScript, Angular 2+, React, React tesng with Jest and Anzime, Vue, general
+web-development (HTML, CSS, UI, etc.), Google apps scripts.
+
+## Node.js: 
+RESTful API design and development, async
+architecture (callbacks, promises, async- await).
+
+## Addional fields: 
+Git and Github acons, Python (Django),
+Linux bash, MongoDB compable DBs, Aws: Ec2, S3.

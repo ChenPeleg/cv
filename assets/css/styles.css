@@ -292,7 +292,7 @@ p {
 .main-wrapper .time {
   position: absolute;
   right: 0;
-  top: -2x;
+  top: -2px;
   color:var(--main-text-pale);
 }
 .main-wrapper .company {

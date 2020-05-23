@@ -5,7 +5,8 @@ import Projects from "./components/Projects";
 import Education from "./components/Education";
 import Technologies from "./components/Technologies";
 import PersonalInfo from "./components/PersonalInfo";
-import Buttons from "./components/Bottons/Buttons"
+import Buttons from "./components/Bottons/Buttons";
+import profileImage from "../src/components/ProfileImg/profile.png"
 // import Interests from "./Interets";
 // import Skill from "./components/Skill";
 // import Language from "./components/Language";
@@ -28,7 +29,9 @@ class App extends Component {
                 <Buttons ></Buttons>
                 <div className="sidebar-wrapper">
                     <div className="profile-container">
-                        <img className="profile profile-image" src={this.state.info.image} alt="Chen Peleg imag"
+                        <img className="profile profile-image" src={profileImage}
+                            // {this.state.info.image} 
+                            alt="Chen Peleg imag"
                         />
                         <h1 className="name"> {this.state.info.name} </h1>
                         <h3 className="tagline">Front-End Developer</h3>

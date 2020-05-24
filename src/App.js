@@ -36,7 +36,7 @@ class App extends Component {
                         <h1 className="name"> {this.state.info.name} </h1>
                         <h3 className="tagline">Front-End Developer</h3>
                     </div>
-                    <div className="education-container container-block" style={{ textAlign: "justify" }}>
+                    <div className="aboutme-container container-block" style={{ textAlign: "justify" }}>
                         <h2 className="container-block-title"><i className="fa fa-user"></i> About Me</h2>
                         {this.state.info.aboutMe}
                     </div>
@@ -46,8 +46,9 @@ class App extends Component {
                         <ul className="list-unstyled contact-list">
                             <li className="email"><i className="fa fa-envelope"></i><a href={"mailto:" + this.state.info.email}>{this.state.info.email}</a></li>
                             <li className="phone"><i className="fa fa-phone"></i><a href={"tel:" + this.state.info.phone}>{this.state.info.phone}</a></li>
-                            <li className="website"><i className="fa fa-globe"></i><a href={this.state.info.website} target="_blank" rel="noopener noreferrer">{this.state.info.website}</a></li>
-                            <li className="website"><i className="fa  fa-linkedin-square"></i><a href={this.state.info.linkedin} target="_blank" rel="noopener noreferrer">{this.state.info.linkedinName} (LinkedIn)</a></li>
+                            <li className="website"><i className="fa fa-globe"></i><a href={this.state.info.websiteUrl} target="_blank" rel="noopener noreferrer">{this.state.info.website}</a></li>
+                            <li className="medium"><i className="fa  fa-medium"></i><a href={this.state.info.mediumLink} target="_blank" rel="noopener noreferrer">{this.state.info.mediumName} (Medium)</a></li>
+                            <li className="linkedin"><i className="fa  fa-linkedin-square"></i><a href={this.state.info.linkedin} target="_blank" rel="noopener noreferrer">{this.state.info.linkedinName} (LinkedIn)</a></li>
 
                         </ul>
                     </div>

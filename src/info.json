@@ -3,31 +3,38 @@
     "image": "../assets/images/profile.png",
     "email": "chenpeleg@gmail.com",
     "phone": "+972 54-6734399",
-    "website": "https://chenpeleg.github.io/cv",
-    "linkedin": "https://www.linkedin.com/in/chen-peleg-03915b1a1/",
+    "website": "chenpeleg.github.io/cv",
+    "websiteUrl": "https://chenpeleg.github.io/cv",
     "linkedinName": "ChenPeleg",
-    "aboutMe": "Founder of Adam Hevra Veteva school for at-risk youth. Passionate about technology and its ability to improve our lives. Developed technological systems for multiple schools, alongside being a teacher and an educator. In recent years I have been focusing on developing educational games and software to help the students learn better and in more enjoyable and varied ways. Now I am interested in full-time work in development.",
+    "linkedin": "https://www.linkedin.com/in/chen-peleg-03915b1a1/",
+    "mediumLink": "https://medium.com/@chenpeleg",
+    "mediumName": "@chenpeleg",
+    "aboutMe": "Founder of Adam Hevra Veteva school for at-risk youth. Passionate about technology and its ability to improve our lives. Developed technological systems for multiple schools, alongside being a teacher and an educator. In recent years I have been focusing on developing educational games and software to help the students learn better and in more enjoyable and varied ways. After years in the education field I’m interested in a new path as a full-time  software developer.",
     "Experiences": [
-        {
-            "title": "Adam hevra VeTeva",
-            "subtitle": "",
-            "location": "Tsahal 109 Karmiel",
-            "date": "2008-2015",
-            "explanation": "One of the founders of the school. In charge of technological-based learning, alongside being a teacher."
-        },
         {
             "title": "Dror Batey Hinuch",
             "subtitle": "School management systems",
             "location": "Kibbutz Galuyot 120 Tel Aviv",
             "date": "2016-2020",
-            "explanation": "Designing and building a students attendance and school management systems, with google apps scripts and google drive/classroom api. The systems were implemented at three schools in DBH."
+            "explanation": "Designing and building a students attendance and school management systems, with google apps scripts and google drive/classroom api. The systems were implemented at three schools in DBH.",
+            "toBeContinued": true
         },
         {
             "title": "",
             "subtitle": "Educational software and Educational games Developer",
             "location": "",
             "date": "",
-            "explanation": "Design, characterising and implementing educational games. The games were designed mostly for English lessons, but were easily adaptable  for other subjects."
+            "explanation": "Design, characterising and implementing educational games. The games were adapted for different schools and student types, with the ability to replace the game’s content in a simple way for teachers without technical background.",
+            "optionalAddOns": "This was done mainly with VanilaJS, React and Node.js.",
+            "toBeContinued": false
+        },
+        {
+            "title": "Adam hevra VeTeva",
+            "subtitle": "",
+            "location": "Tsahal 109 Karmiel",
+            "date": "2008-2015",
+            "explanation": "One of the founders of the school. In charge of technological-based learning, alongside being a teacher.",
+            "toBeContinued": false
         }
     ],
     "Career": "Started as a Teacher ",
@@ -90,7 +97,9 @@
     "personalInfo": [
         {
             "title": "Address",
-            "content": "Kibbutz Eshbal, Misgav"
+            "content": "HaRav Ya'akov Berman 10, Rehovot",
+            "north": "Kibbutz Eshbal, Misgav",
+            "center": "Kibbutz Eshbal, Misgav"
         },
         {
             "title": "Date of Birth",

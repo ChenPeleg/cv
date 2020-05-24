@@ -58,6 +58,7 @@
  .wrapper {
    background: #42A8C0 !important;
    max-width: 960px !important;
+   
    margin: 0 auto !important;
    position: relative !important;
    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.4) !important;
@@ -158,7 +159,7 @@
  }
  .sidebar-wrapper .contact-list li {
    
-   margin-bottom: 15px !important;
+   margin-bottom: 12px !important;
  }
  .sidebar-wrapper .contact-list a {
    color: var(--main-text-dark) !important;
@@ -167,9 +168,7 @@
  .sidebar-wrapper .contact-list li:last-child {
    margin-bottom: 0 !important;
  }
- .sidebar-wrapper .contact-list .email .fa {
-   font-size: 14px !important;
- }
+  
  .sidebar-wrapper .container-block {
    color: var(--main-text-dark) !important;
    padding: 25px !important;
@@ -183,14 +182,21 @@
    font-size: 16px !important;
    font-weight: 700 !important;
    margin-right: 13px !important;
-   margin-top: 0 !important;
+   margin-top: 15px !important;
    margin-bottom: 15px !important;
    color: var(--main-text-light) !important;
  }
+ 
  .sidebar-wrapper .degree {
    font-size: 14px !important;
    margin-top: 0 !important;
    margin-bottom: 5px !important;
+ }
+ .sidebar-wrapper .aboutme-container .container-block-title  {
+   margin-top: 20px !important;
+   }
+ .sidebar-wrapper .aboutme-container  {
+   line-height: 140% !important;
  }
  .sidebar-wrapper .education-container .item {
    margin-bottom: 15px !important;
@@ -237,6 +243,7 @@
    padding-left: 300px !important;
    padding-top: 30px !important;
    padding-bottom: 20px !important;
+   min-height:  296mm !important;
  }
  .main-wrapper .section-title {
    text-transform: uppercase !important;
@@ -283,7 +290,7 @@
    color: #3F4650 !important;
    font-size: 18px !important;
    margin-top: 0 !important;
-   margin-bottom: 0 !important;
+   margin-bottom: 5px !important;
    font-weight: 500 !important;
  }
  

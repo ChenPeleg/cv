@@ -182,15 +182,19 @@ p {
   font-size: 16px;
   font-weight: 700;
   margin-right: 13px;
- 
+  margin-top: 15px;
   margin-bottom: 15px;
   color: var(--main-text-light);
 }
+
 .sidebar-wrapper .degree {
   font-size: 14px;
   margin-top: 0;
   margin-bottom: 5px;
 }
+.sidebar-wrapper .aboutme-container .container-block-title  {
+  margin-top: 20px;
+  }
 .sidebar-wrapper .aboutme-container  {
   line-height: 140%;
 }

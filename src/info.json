@@ -24,8 +24,7 @@
             "subtitle": "Educational software and Educational games Developer",
             "location": "",
             "date": "",
-            "explanation": "Design, characterising and implementing educational games. The games were adapted for different schools and student types, with the ability to replace the game’s content in a simple way for teachers without technical background.",
-            "optionalAddOns": "This was done mainly with VanilaJS, React and Node.js.",
+            "explanation": "Design, characterising and implementing educational games. The games were adapted for different schools and student types, with the ability to replace the game’s content in a simple way for teachers without technical background. The games and Educational software were developed mainly with vanilla Javascript, React and Node.js.",
             "toBeContinued": false
         },
         {
@@ -53,8 +52,8 @@
     ],
     "technology": [
         {
-            "TechName": "Front-End Aplication development",
-            "TechExplanation": "vanila JavaScript,  Angular 2+, React, React testing with Jest and Anzime, Vue,  general web-development (HTML, CSS,  UI, etc.), Google apps scripts."
+            "TechName": "Front-End Application development",
+            "TechExplanation": "vanilla JavaScript,  Angular 2+, React, React testing with Jest and Enzyme, Vue,  general web-development (HTML, CSS,  UI, etc.), Google apps scripts."
         },
         {
             "TechName": "Node.js",
@@ -67,7 +66,7 @@
     ],
     "Skills": [
         {
-            "skill": "jJavascript",
+            "skill": "javascript",
             "percent": "90%"
         }
     ],
@@ -107,7 +106,7 @@
         },
         {
             "title": "Languages",
-            "content": "Hebrew -Mother tongue, English - Fluent (Reading, writing and speaking)."
+            "content": "Hebrew - Mother tongue, English - Fluent (Reading, writing and speaking)."
         }
     ]
 }

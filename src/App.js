@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import info from './info.json';
 import Experience from "./components/Experience";
-import Projects from "./components/Projects";
+import Projects from "./components/Projects/Projects";
 import Education from "./components/Education";
 import Technologies from "./components/Technologies";
 import PersonalInfo from "./components/PersonalInfo";
@@ -26,7 +26,7 @@ class App extends Component {
     render() {
         return (
             <div className="wrapper">
-                <Buttons ></Buttons>
+                <Buttons></Buttons>
                 <div className="sidebar-wrapper">
                     <div className="profile-container">
                         <img className="profile profile-image" src={profileImage}

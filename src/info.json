@@ -10,13 +10,12 @@
     "mediumLink": "https://medium.com/@chenpeleg",
     "mediumName": "@chenpeleg",
     "aboutMe": "Founder of Adam Hevra Veteva school for at-risk youth. Passionate about technology and its ability to improve our lives. Developed technological systems for multiple schools, alongside being a teacher and an educator. In recent years I have been focusing on developing educational games and software to help the students learn better and in more enjoyable and varied ways. After years in the education field I’m interested in a new path as a full-time  software developer.",
-    "Experiences": [
-        {
+    "Experiences": [{
             "title": "Dror Batey Hinuch",
             "subtitle": "School management systems",
             "location": "Kibbutz Galuyot 120 Tel Aviv",
             "date": "2016-2020",
-            "explanation": "Designing and building a students attendance and school management systems, with google apps scripts and google drive/classroom api. The systems were implemented at three schools in DBH.",
+            "explanation": "Designing and building a students attendance and school management systems. The systems were implemented at three schools in DBH.",
             "toBeContinued": true
         },
         {
@@ -38,20 +37,34 @@
     ],
     "Career": "Started as a Teacher ",
     "ProjectsDescription": "Github üzerinde bulunan projelerim.",
-    "Projects": [
-        {
+    "Projects": [{
             "projectName": "ClassUp",
             "url": "https://github.com/ChenPeleg/Classup",
-            "explanation": "This app was created to help teachers and educators teach with computers or smartphones. Built with React 16."
+            "explanation": "This app was created to help teachers and educators teach with computers or smartphones. Built with React 16.",
+            "links": []
         },
         {
             "projectName": "Medium Articles",
             "url": "https://medium.com/@chenpeleg",
-            "explanation": "My medium articles about my Google App Scripts experience, mainly about productivity scripts examples."
+            "explanation": "My medium articles about my Google App Scripts experience, mainly about productivity scripts examples.",
+            "links": []
+        },
+        {
+            "projectName": "Example Games",
+            "url": "https://chenpeleg.github.io/Games/",
+            "explanation": "Few of the games I designed and programmed:",
+            "links": [{
+                    "title": "chenpeleg.github.io/Games/Shooter/ShooterMarket.html",
+                    "url": "https://chenpeleg.github.io/Games/Shooter/ShooterMarket.html"
+                },
+                {
+                    "title": "chenpeleg.github.io/Games/Memory/index.html",
+                    "url": "https://chenpeleg.github.io/Games/Memory/index.html"
+                }
+            ]
         }
     ],
-    "technology": [
-        {
+    "technology": [{
             "TechName": "Front-End Application development",
             "TechExplanation": "vanilla JavaScript,  Angular 2+, React, React testing with Jest and Enzyme, Vue,  general web-development (HTML, CSS,  UI, etc.), Google apps scripts."
         },
@@ -64,14 +77,11 @@
             "TechExplanation": " Git and Github actions, Python (Django), Linux bash, MongoDB compatible DBs, Aws: Ec2, S3. "
         }
     ],
-    "Skills": [
-        {
-            "skill": "javascript",
-            "percent": "90%"
-        }
-    ],
-    "Education": [
-        {
+    "Skills": [{
+        "skill": "javascript",
+        "percent": "90%"
+    }],
+    "Education": [{
             "title": "Beit-Berl college",
             "content": "B.A in History and Informal Education",
             "date": "2009 - 2013"
@@ -82,19 +92,14 @@
             "date": "2013 - 2018"
         }
     ],
-    "Languages": [
-        {
-            "language": "Hebrew",
-            "level": "Native"
-        }
-    ],
-    "Interests": [
-        {
-            "hobi": "Travelling"
-        }
-    ],
-    "personalInfo": [
-        {
+    "Languages": [{
+        "language": "Hebrew",
+        "level": "Native"
+    }],
+    "Interests": [{
+        "hobi": "Travelling"
+    }],
+    "personalInfo": [{
             "title": "Address",
             "content": "HaRav Ya'akov Berman 10, Rehovot",
             "north": "Kibbutz Eshbal, Misgav",

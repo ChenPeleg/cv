@@ -15,7 +15,7 @@
             "subtitle": "School management systems",
             "location": "Kibbutz Galuyot 120 Tel Aviv",
             "date": "2016-2020",
-            "explanation": "Designing and building a students attendance and school management systems. The systems were implemented at three schools in DBH.",
+            "explanation": "Designing and building the student attendance and overall school management systems. The systems were implemented at three schools in the DBH network.",
             "toBeContinued": true
         },
         {
@@ -23,7 +23,7 @@
             "subtitle": "Educational software and Educational games Developer",
             "location": "",
             "date": "",
-            "explanation": "Design, characterising and implementing educational games. The games were adapted for different schools and student types, with the ability to replace the game’s content in a simple way for teachers without technical background. The games and Educational software were developed mainly with vanilla Javascript, React and Node.js.",
+            "explanation": "Design, characterising and implementing educational games. The games were adapted for different schools and student types, with the ability to replace the game’s content in a simple way for eachers without a technical background. The games and Educational software were developed mainly with vanilla Javascript, React and Node.js.",
             "toBeContinued": false
         },
         {
@@ -46,13 +46,13 @@
         {
             "projectName": "Medium Articles",
             "url": "https://medium.com/@chenpeleg",
-            "explanation": "My medium articles about my Google App Scripts experience, mainly about productivity scripts examples.",
+            "explanation": "Articles about my experience with Google App Scripts, mainly productivity scripts examples.",
             "links": []
         },
         {
             "projectName": "Example Games",
             "url": "https://chenpeleg.github.io/Games/",
-            "explanation": "Few of the games I designed and programmed:",
+            "explanation": "A few of the games I designed and programmed:",
             "links": [{
                     "title": "chenpeleg.github.io/Games/Shooter/ShooterMarket.html",
                     "url": "https://chenpeleg.github.io/Games/Shooter/ShooterMarket.html"

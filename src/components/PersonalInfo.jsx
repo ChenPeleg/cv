@@ -5,9 +5,9 @@ class PersonalInfo extends Component {
   render() {
 
     return (
-      <div className="item">
+      this.props.item.title ? <div className="item">
         <span className="technology-title"> {this.props.item.title}</span>: <span className="project-tagline">{this.props.item.content}</span>
-      </div>
+      </div> : null
     );
 
   }

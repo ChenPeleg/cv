@@ -36,7 +36,7 @@ class App extends Component {
                 <Buttons></Buttons>
                 <div className="sidebar-wrapper">
                     <div className="profile-container">
-                        <ProfileImage profileImage={profileImage} funnyImages={[p1, p2, p3]} />
+                        <ProfileImage profileImage={profileImage} funnyImages={[p1, p2, p3, profileImage]} />
                         <h1 className="name"> {this.state.info.name} </h1>
                         <h3 className="tagline">Front-End Developer</h3>
                     </div>

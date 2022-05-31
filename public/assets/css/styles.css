@@ -142,6 +142,7 @@ p {
     background: radial-gradient(ellipse at top, rgb(160, 189, 184) 0%, rgb(193, 179, 197) 46%, rgb(191, 194, 236) 100%);
     border: var(--main-text-medium) 3px solid;
     margin-bottom: 10px;
+    cursor : pointer;
 }
 
 .sidebar-wrapper .name {

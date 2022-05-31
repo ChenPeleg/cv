@@ -1,6 +1,11 @@
 {
     "name": "Chen Peleg",
     "image": "../assets/images/profile.png",
+    "funnyProfileImages": [
+        "../assets/images/p1.png",
+        "../assets/images/p2.png",
+        "../assets/images/p3.png"
+    ],
     "email": "chenpeleg@gmail.com",
     "phone": "+972 54-6734399",
     "website": "chenpeleg.github.io/cv",
@@ -10,7 +15,8 @@
     "mediumLink": "https://medium.com/@chenpeleg",
     "mediumName": "@chenpeleg",
     "aboutMe": "Founder of Adam Hevra Veteva school for at-risk youth. Passionate about technology and its ability to improve our lives. Developed technological systems for multiple schools, alongside being a teacher and an educator. In recent years I have been focusing on developing educational games and software to help the students learn better and in more enjoyable and varied ways. After years in the education field I’m interested in a new path as a full-time  software developer.",
-    "Experiences": [{
+    "Experiences": [
+        {
             "title": "Dror Batey Hinuch",
             "subtitle": "School management systems",
             "location": "Kibbutz Galuyot 120 Tel Aviv",
@@ -37,7 +43,8 @@
     ],
     "Career": "Started as a Teacher ",
     "ProjectsDescription": "Github üzerinde bulunan projelerim.",
-    "Projects": [{
+    "Projects": [
+        {
             "projectName": "ClassUp",
             "url": "https://github.com/ChenPeleg/Classup",
             "explanation": "This app was created to help teachers and educators teach with computers or smartphones. Built with React 16.",
@@ -53,7 +60,8 @@
             "projectName": "Example Games",
             "url": "https://chenpeleg.github.io/Games/",
             "explanation": "A few of the games I designed and programmed:",
-            "links": [{
+            "links": [
+                {
                     "title": "chenpeleg.github.io/Games/Shooter/ShooterMarket.html",
                     "url": "https://chenpeleg.github.io/Games/Shooter/ShooterMarket.html"
                 },
@@ -64,7 +72,8 @@
             ]
         }
     ],
-    "technology": [{
+    "technology": [
+        {
             "TechName": "Front-End Application development",
             "TechExplanation": "vanilla JavaScript,  Angular 2+, React, React testing with Jest and Enzyme, Vue,  general web-development (HTML, CSS,  UI, etc.), Google apps scripts."
         },
@@ -77,11 +86,14 @@
             "TechExplanation": " Git and Github actions, Python (Django), Linux bash, MongoDB compatible DBs, Aws: Ec2, S3. "
         }
     ],
-    "Skills": [{
-        "skill": "javascript",
-        "percent": "90%"
-    }],
-    "Education": [{
+    "Skills": [
+        {
+            "skill": "javascript",
+            "percent": "90%"
+        }
+    ],
+    "Education": [
+        {
             "title": "Beit-Berl college",
             "content": "B.A in History and Informal Education",
             "date": "2009 - 2013"
@@ -92,14 +104,19 @@
             "date": "2013 - 2018"
         }
     ],
-    "Languages": [{
-        "language": "Hebrew",
-        "level": "Native"
-    }],
-    "Interests": [{
-        "hobi": "Travelling"
-    }],
-    "personalInfo": [{
+    "Languages": [
+        {
+            "language": "Hebrew",
+            "level": "Native"
+        }
+    ],
+    "Interests": [
+        {
+            "hobi": "Travelling"
+        }
+    ],
+    "personalInfo": [
+        {
             "title": "Address",
             "content": "HaRav Ya'akov Berman 10, Rehovot",
             "north": "Kibbutz Eshbal, Misgav",

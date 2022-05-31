@@ -7,9 +7,16 @@ import Technologies from "./components/Technologies";
 import PersonalInfo from "./components/PersonalInfo";
 import Buttons from "./components/Bottons/Buttons";
 import profileImage from "../src/assets/profile.png"
-// import Interests from "./Interets";
-// import Skill from "./components/Skill";
-// import Language from "./components/Language";
+import { ProfileImage } from './components/profileImage';
+
+
+import p1 from "../src/assets/p1.png"
+import p2 from "../src/assets/p2.png"
+import p3 from "../src/assets/p3.png"
+
+
+
+
 
 class App extends Component {
     constructor(props) {
@@ -29,10 +36,7 @@ class App extends Component {
                 <Buttons></Buttons>
                 <div className="sidebar-wrapper">
                     <div className="profile-container">
-                        <img className="profile profile-image" src={profileImage}
-                            // {this.state.info.image} 
-                            alt="Chen Peleg imag"
-                        />
+                        <ProfileImage profileImage={profileImage} funnyImages={[p1, p2, p3]} />
                         <h1 className="name"> {this.state.info.name} </h1>
                         <h3 className="tagline">Front-End Developer</h3>
                     </div>
@@ -99,7 +103,7 @@ class App extends Component {
                     <section className="section info-section">
                         <h2 className="section-title"><i className="fa fa-user-plus"></i>Personal information</h2>
                         <div className="intro">
-                            <p>{this.state.info.ProjectDescription}</p>
+                            <p>{this.state.info['ProjectDescription']}</p>
                         </div>
                         {this.state.info.personalInfo.map((item, key) => <PersonalInfo item={item} key={key} />)}
                     </section>

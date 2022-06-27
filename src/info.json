@@ -14,8 +14,16 @@
     "linkedin": "https://www.linkedin.com/in/chen-peleg-03915b1a1/",
     "mediumLink": "https://medium.com/@chenpeleg",
     "mediumName": "@chenpeleg",
-    "aboutMe": "Founder of Adam Hevra Veteva school for at-risk youth. Passionate about technology and its ability to improve our lives. Developed technological systems for multiple schools, alongside being a teacher and an educator. In recent years I have been focusing on developing educational games and software to help the students learn better and in more enjoyable and varied ways. After years in the education field I’m interested in a new path as a full-time  software developer.",
+    "aboutMe": "Passionate about technology and its ability to improve our lives.After several years in the field of education, I went on a new path as a full-time software developer. I've developed technological systems for multiple schools as well as educational games and software to help students learn better and in more enjoyable and varied ways.",
     "Experiences": [
+        {
+            "title": "T.N.M",
+            "subtitle": "Civil engineering projects",
+            "location": "Kibbutz Galuyot 120 Tel Aviv",
+            "date": "2020-2022",
+            "explanation": "Maintaining and upgrading a civil engineering project management app. The app included a user interface in addition to a chemical laboratories interface. My work included front-end architecture design and development (Angular  2+) and back-end (ASP.NET core)  REST api development.",
+            "toBeContinued": true
+        },
         {
             "title": "Dror Batey Hinuch",
             "subtitle": "School management systems",
@@ -30,14 +38,6 @@
             "location": "",
             "date": "",
             "explanation": "Design, characterising and implementing educational games. The games were adapted for different schools and student types, with the ability to replace the game’s content in a simple way for eachers without a technical background. The games and Educational software were developed mainly with vanilla Javascript, React and Node.js.",
-            "toBeContinued": false
-        },
-        {
-            "title": "Adam hevra VeTeva",
-            "subtitle": "",
-            "location": "Tsahal 109 Karmiel",
-            "date": "2008-2015",
-            "explanation": "One of the founders of the school. In charge of technological-based learning, alongside being a teacher.",
             "toBeContinued": false
         }
     ],
@@ -75,7 +75,11 @@
     "technology": [
         {
             "TechName": "Front-End Application development",
-            "TechExplanation": "vanilla JavaScript,  Angular 2+, React, React testing with Jest and Enzyme, Vue,  general web-development (HTML, CSS,  UI, etc.), Google apps scripts."
+            "TechExplanation": "Vanilla JavaScript, Angular 2+, React, React testing with Jest and Enzyme, Vue, general web-development (HTML, CSS, UI, etc.), Google apps scripts."
+        },
+        {
+            "TechName": "ASP.NET Core",
+            "TechExplanation": "Experience in working with Microsoft technologies like C# , ASP.NET WEB API, .Net Core, ADO.NET,  Microsoft SQL Server, IIS, TFS."
         },
         {
             "TechName": "Node.js",

@@ -3,7 +3,7 @@ import pdfCv from "../../assets/ChenPelegCV.pdf"
 
 
 class Buttons extends Component<any, any> {
-  state = { stylePath: "colorprint.css", grey: "greyprint.css", color: "colorprint.css" }
+  // state = { stylePath: "colorprint.css", grey: "greyprint.css", color: "colorprint.css" }
 
   download() {
     alert("down")

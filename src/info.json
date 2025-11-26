@@ -29,17 +29,10 @@
             "subtitle": "School management systems",
             "location": "Kibbutz Galuyot 120 Tel Aviv",
             "date": "2016-2020",
-            "explanation": "Designing and building the student attendance and overall school management systems. The systems were implemented at three schools in the DBH network.",
-            "toBeContinued": true
-        },
-        {
-            "title": "",
-            "subtitle": "Educational software and Educational games Developer",
-            "location": "",
-            "date": "",
-            "explanation": "Design, characterising and implementing educational games. The games were adapted for different schools and student types, with the ability to replace the game’s content in a simple way for eachers without a technical background. The games and Educational software were developed mainly with vanilla Javascript, React and Node.js.",
-            "toBeContinued": false
+          "explanation": "Design, characterising and implementing educational games. The games were adapted for different schools and student types, with the ability to replace the game’s content in a simple way for eachers without a technical background. The games and Educational software were developed mainly with vanilla Javascript, React and Node.js.",
+          "toBeContinued": false
         }
+
     ],
     "Career": "Started as a Teacher ",
     "Projects": [
@@ -53,7 +46,7 @@
             "projectName": "Medium Articles",
             "url": "https://medium.com/@chenpeleg",
             "explanation": "Articles about my experience with Google App Scripts, mainly productivity scripts examples.",
-            "links": []
+            "links": [ ]
         },
         {
             "projectName": "Example Games",

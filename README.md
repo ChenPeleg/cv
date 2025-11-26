@@ -7,6 +7,8 @@ and an educator. In recent years I have been focusing on developing educaonal ga
 the students learn better and in more enjoyable and varied ways. Now I am interested in full-me work
 in development. 
 
+
+
 ### CONTACT ME
 - chenpeleg@gmail.com
 - +972 54-6734399

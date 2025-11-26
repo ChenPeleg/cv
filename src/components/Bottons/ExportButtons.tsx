@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import pdfCv from "../../assets/ChenPelegCV.pdf"
 
 
-class Buttons extends Component {
-  state = { stylePath: "colorprint.css", grey: "greyprint.css", color: "colorprint.css" }
+class ExportButtons extends Component<any, any> {
 
   download() {
     alert("down")
@@ -22,4 +21,5 @@ class Buttons extends Component {
   }
 }
 
-export default Buttons;
+export default ExportButtons;
+

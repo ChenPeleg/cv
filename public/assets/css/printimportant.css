@@ -25,7 +25,7 @@
    padding: 30px !important;
    -webkit-font-smoothing: antialiased !important;
    -moz-osx-font-smoothing: grayscale !important;
-   -webkit-print-color-adjust: exact !important !important;
+   -webkit-print-color-adjust: exact !important;
     
  }
  h1,

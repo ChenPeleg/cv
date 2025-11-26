@@ -8,7 +8,6 @@ the students learn better and in more enjoyable and varied ways. Now I am intere
 in development. 
 
 
-
 ### CONTACT ME
 - chenpeleg@gmail.com
 - +972 54-6734399

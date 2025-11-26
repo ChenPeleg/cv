@@ -5,7 +5,7 @@ Founder of Adam Hevra Veteva school for at-risk youth. Passionate about technolo
 improve our lives. Developed technological systems for mulple schools, alongside being a teacher
 and an educator. In recent years I have been focusing on developing educaonal games and soware to help
 the students learn better and in more enjoyable and varied ways. Now I am interested in full-me work
-in development.
+in development. 
 
 ### CONTACT ME
 - chenpeleg@gmail.com

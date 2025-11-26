@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import  { Component } from 'react';
 import info from './info.json';
 import Experience from "./components/Experience";
 import Projects from "./components/Projects/Projects";

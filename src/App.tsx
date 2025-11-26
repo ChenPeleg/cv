@@ -59,13 +59,6 @@ class App extends Component<any, any> {
                     </div>
 
 
-                    {/* <div className="languages-container container-block">
-                        <h2 className="container-block-title"><i className="fa fa-cubes"></i>Languages</h2>
-                        <ul className="list-unstyled interests-list">
-                            {this.state.info.Languages.map((item, key) => <Language item={item} key={key} />)}
-                        </ul>
-                    </div> */}
-
 
                 </div>
 

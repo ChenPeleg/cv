@@ -9,7 +9,7 @@ export const ProfileImage = (props: any) => {
     const funnyImages = props.funnyImages;
     const [imagesState, setImageState] = useState<number>(1);
     const [imgSrc, setimgSrc] = useState<string>(props.profileImage);
-    const imageClickHandler = (ev: any) => {
+    const imageClickHandler = () => {
 
         if (!isFunnyImageProfile) {
             return;
@@ -28,4 +28,3 @@ export const ProfileImage = (props: any) => {
         alt="Chen Peleg imag"
     />)
 }
-

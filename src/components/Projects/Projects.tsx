@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import ProjectLinks from "./ProjectLinks"
 
 class Projects extends Component<any, any> {

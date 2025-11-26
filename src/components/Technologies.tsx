@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 
-
-class Technologies extends Component {
+class Technologies extends Component<any, any> {
   render() {
-    console.log()
     return (
       <div className="item">
         <span className="technology-title"> {this.props.item.TechName}</span>: <span className="project-tagline">{this.props.item.TechExplanation}</span>
@@ -14,3 +12,4 @@ class Technologies extends Component {
 }
 
 export default Technologies;
+

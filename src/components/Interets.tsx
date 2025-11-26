@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 
   
 
-class Interests extends Component {
+class Interests extends Component<any, any> {
   render() {
     return (
       <li>{this.props.item.hobi}</li>
@@ -11,3 +11,4 @@ class Interests extends Component {
 }
 
 export default Interests;
+

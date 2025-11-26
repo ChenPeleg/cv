@@ -3,13 +3,13 @@ import { useState } from "react";
 
 
 const isFunnyImageProfile = true;
-export const ProfileImage = (props) => {
+export const ProfileImage = (props: any) => {
 
 
     const funnyImages = props.funnyImages;
-    const [imagesState, setImageState] = useState(1);
-    const [imgSrc, setimgSrc] = useState(props.profileImage);
-    const imageClickHandler = (ev) => {
+    const [imagesState, setImageState] = useState<number>(1);
+    const [imgSrc, setimgSrc] = useState<string>(props.profileImage);
+    const imageClickHandler = () => {
 
         if (!isFunnyImageProfile) {
             return;
@@ -24,7 +24,7 @@ export const ProfileImage = (props) => {
         console.log(imagesState, funnyImages[imagesState]);
     }
     return (<img onClick={imageClickHandler} className="profile profile-image" src={imgSrc}
-        // {this.state.info.image} 
+        // {this.state.info.image}
         alt="Chen Peleg imag"
     />)
-} 
+}

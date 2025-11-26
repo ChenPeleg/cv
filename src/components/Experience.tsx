@@ -1,11 +1,10 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 
-
-class Experience extends Component {
+class Experience extends Component<any, any> {
   render() {
 
     return (
-      <div className="item" style={this.props.item.toBeContinued ? { marginBottom: "5px" } : null}>
+      <div className="item" style={this.props.item.toBeContinued ? { marginBottom: "5px" } : undefined}>
         <div className="meta">
           {this.props.item.date ? <div className="upper-row">
             <h3 className="job-main-title">{this.props.item.title}</h3>

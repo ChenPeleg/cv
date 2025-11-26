@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 
-
-class Education extends Component {
+class Education extends Component<any, any> {
   render() {
     return (
       <div className="item">
@@ -15,3 +14,4 @@ class Education extends Component {
 }
 
 export default Education;
+

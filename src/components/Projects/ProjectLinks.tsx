@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 
-
-class ProjectLinks extends Component {
+class ProjectLinks extends Component<any, any> {
   render() {
     return (
       <>
@@ -12,3 +11,4 @@ class ProjectLinks extends Component {
 }
 
 export default ProjectLinks;
+

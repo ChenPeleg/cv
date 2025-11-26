@@ -75,7 +75,7 @@
     "technology": [
         {
             "TechName": "Front-End Application development",
-            "TechExplanation": "Vanilla JavaScript, Angular 2+, React, React testing with Jest and Enzyme, Vue, general web-development (HTML, CSS, UI, etc.), Google apps scripts."
+            "TechExplanation": "Vanilla JavaScript, Angular 2+, React testing with Jest and Enzyme, Vue, general web-development (HTML, CSS, UI, etc.), Google apps scripts."
         },
         {
             "TechName": "ASP.NET Core",

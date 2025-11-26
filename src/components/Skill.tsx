@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 
-
-class Skill extends Component {
+class Skill extends Component<any, any> {
   render() {
     return (
       <div className="item">
@@ -17,3 +16,4 @@ class Skill extends Component {
 }
 
 export default Skill;
+

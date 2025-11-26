@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import  { Component } from 'react';
 import info from './info.json';
 import Experience from "./components/Experience";
 import Projects from "./components/Projects/Projects";
@@ -14,12 +14,8 @@ import p1 from "../src/assets/p1.png"
 import p2 from "../src/assets/p2.png"
 import p3 from "../src/assets/p3.png"
 
-
-
-
-
-class App extends Component {
-    constructor(props) {
+class App extends Component<any, any> {
+    constructor(props: any) {
         super(props);
         this.state = { info: info }
     }
@@ -59,7 +55,7 @@ class App extends Component {
                     <div className="education-container container-block">
 
                         <h2 className="container-block-title"><i className="fa fa-book"></i>Education</h2>
-                        {this.state.info.Education.map((item, key) => <Education item={item} key={key} />)}
+                        {this.state.info.Education.map((item: any, key: any) => <Education item={item} key={key} />)}
                     </div>
 
 
@@ -76,18 +72,17 @@ class App extends Component {
                 <div className="main-wrapper">
 
 
-
                     <section className="section experiences-section">
                         <h2 className="section-title"><i className="fa fa-briefcase"></i>Experience</h2>
 
-                        {this.state.info.Experiences.map((item, key) => <Experience item={item} key={key} />)}
+                        {this.state.info.Experiences.map((item: any, key: any) => <Experience item={item} key={key} />)}
 
                     </section>
 
                     <section className="skills-section section">
                         <h2 className="section-title"><i className="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
 
-                        {this.state.info.technology.map((item, key) => <Technologies item={item} key={key} />)}
+                        {this.state.info.technology.map((item: any, key: any) => <Technologies item={item} key={key} />)}
                         {/* <div className="skillset">
                             {this.state.info.Skills.map((item, key) => <Skill item={item} key={key} />)}
                         </div> */}
@@ -97,7 +92,7 @@ class App extends Component {
                         <h2 className="section-title"><i className="fa fa-archive"></i>Projects and articles</h2>
 
 
-                        {this.state.info.Projects.map((item, key) => <Projects item={item} key={key} />)}
+                        {this.state.info.Projects.map((item: any, key: any) => <Projects item={item} key={key} />)}
                     </section>
 
                     <section className="section info-section">
@@ -105,7 +100,7 @@ class App extends Component {
                         <div className="intro">
                             <p>{this.state.info['ProjectDescription']}</p>
                         </div>
-                        {this.state.info.personalInfo.map((item, key) => <PersonalInfo item={item} key={key} />)}
+                        {this.state.info.personalInfo.map((item: any, key: any) => <PersonalInfo item={item} key={key} />)}
                     </section>
 
 
@@ -117,3 +112,4 @@ class App extends Component {
 }
 
 export default App;
+

@@ -52,28 +52,27 @@ export interface PersonalInfoItem {
 }
 
 export interface Information {
-	name?: string;
-	image?: string;
-	funnyProfileImages?: string[];
-	email?: string;
-	phone?: string;
-	website?: string;
-	websiteUrl?: string;
-	linkedinName?: string;
-	linkedin?: string;
-	mediumLink?: string;
-	mediumName?: string;
-	aboutMe?: string;
-	Experiences?: Experience[];
-	Career?: string;
-	ProjectsDescription?: string;
-	Projects?: Project[];
-	technology?: Technology[];
-	Skills?: Skill[];
-	Education?: EducationItem[];
-	Languages?: LanguageItem[];
-	Interests?: Interest[];
-	personalInfo?: PersonalInfoItem[];
+	name: string;
+	image: string;
+	funnyProfileImages: string[];
+	email: string;
+	phone: string;
+	website: string;
+	websiteUrl: string;
+	linkedinName: string;
+	linkedin: string;
+	mediumLink: string;
+	mediumName: string;
+	aboutMe: string;
+	Experiences: Experience[];
+	Career: string;
+	Projects: Project[];
+	technology: Technology[];
+	Skills: Skill[];
+	Education: EducationItem[];
+	Languages: LanguageItem[];
+	Interests: Interest[];
+	personalInfo: PersonalInfoItem[];
 }
 
 export type { Information as default };

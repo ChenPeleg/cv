@@ -1,5 +1,12 @@
+@import "tailwindcss";
 body {
   margin: 0;
   padding: 0;
   
+}
+@media print {
+    @page {
+        margin: 20px;
+        padding-top: 20px;
+    }
 }

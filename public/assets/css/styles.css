@@ -64,27 +64,27 @@ p {
 }
 
 .wrapper {
-    background: #42A8C0;
-    max-width: 960px;
-    margin: 0 auto;
-    position: relative;
+    /*background: #42A8C0;*/
+    /*max-width: 960px;*/
+    /*margin: 0 auto;*/
+    /*position: relative;*/
     box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.4);
 }
 
-.wrapper .buttons-wrapper {
+.buttons-wrapper {
     position: absolute;
     right: 20px;
     top: 20px;
     z-index: 1;
 }
 
-.wrapper .buttons-wrapper .button {
+.buttons-wrapper .button {
     display: inline-block;
     padding: 5px;
     z-index: 10;
 }
 
-.wrapper .buttons-wrapper .fa {
+.buttons-wrapper .fa {
     display: inline-block;
     width: 30px;
     height: 30px;
@@ -108,7 +108,7 @@ p {
     transition: all ease-in-out 0.1s;
 }
 
-.wrapper .buttons-wrapper .fa:hover {
+.buttons-wrapper .fa:hover {
     box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.2);
 }
 

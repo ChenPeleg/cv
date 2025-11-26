@@ -4,7 +4,8 @@ import { AppMainContent } from './AppMainContent.tsx';
 import {AppSidebar} from './AppSidebar.tsx';
 
 export const AppLayout = ({info}: { info: Information }) => {
-    return <div className="wrapper">
+
+    return <div className="wrapper bg-light max-w-[960px] my-0 mx-auto" style={{maxWidth: '960px',   position: 'relative'}}>
         <ExportButtons></ExportButtons>
         <AppSidebar info={info}/>
         <AppMainContent info={info}/>

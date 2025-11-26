@@ -5,6 +5,7 @@ import Projects from '../components/Projects/Projects.tsx';
 import PersonalInfo from '../components/PersonalInfo.tsx';
 
 export const AppMainContent = ({info}: { info: Information }) => {
+    // @ts-ignore
     return    <div className="main-wrapper">
 
 
@@ -33,9 +34,7 @@ export const AppMainContent = ({info}: { info: Information }) => {
 
         <section className="section info-section">
             <h2 className="section-title"><i className="fa fa-user-plus"></i>Personal information</h2>
-            <div className="intro">
-                <p>{info['ProjectDescription']}</p>
-            </div>
+
             {info.personalInfo.map((item: any, key: any) => <PersonalInfo item={item} key={key}/>)}
         </section>
 

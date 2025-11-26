@@ -1,138 +1,140 @@
 {
-    "name": "Chen Peleg",
-    "image": "../assets/images/profile.png",
-    "funnyProfileImages": [
-        "../assets/images/p1.png",
-        "../assets/images/p2.png",
-        "../assets/images/p3.png"
-    ],
-    "email": "chenpeleg@gmail.com",
-    "phone": "+972 54-6734399",
-    "website": "chenpeleg.github.io/cv",
-    "websiteUrl": "https://chenpeleg.github.io/cv",
-    "linkedinName": "ChenPeleg",
-    "linkedin": "https://www.linkedin.com/in/chen-peleg-03915b1a1/",
-    "mediumLink": "https://medium.com/@chenpeleg",
-    "mediumName": "@chenpeleg",
-    "aboutMe": "Passionate about technology and its ability to improve our lives.After several years in the field of education, I went on a new path as a full-time software developer. I've developed technological systems for multiple schools as well as educational games and software to help students learn better and in more enjoyable and varied ways.",
-    "Experiences": [
+  "name": "Chen Peleg",
+  "image": "../assets/images/profile.png",
+  "funnyProfileImages": [
+    "../assets/images/p1.png",
+    "../assets/images/p2.png",
+    "../assets/images/p3.png"
+  ],
+  "email": "chenpeleg@gmail.com",
+  "phone": "+972 54-6734399",
+  "website": "chenpeleg.github.io/cv",
+  "websiteUrl": "https://chenpeleg.github.io/cv",
+  "linkedinName": "ChenPeleg",
+  "linkedin": "https://www.linkedin.com/in/chen-peleg-03915b1a1/",
+  "mediumLink": "https://medium.com/@chenpeleg",
+  "mediumName": "@chenpeleg",
+  "aboutMe": "Passionate about technology and its ability to improve our lives.After several years in the field of education, I went on a new path as a full-time software developer. I've developed technological systems for multiple schools as well as educational games and software to help students learn better and in more enjoyable and varied ways.",
+  "Experiences": [
+    {
+      "title": "Drorsoft (CBHC Computing)",
+      "subtitle": "Advanced Software solutions",
+      "location": "Hagana Road 34, Tel Aviv-Yafo 6772137",
+      "date": "2022-2025",
+      "explanation": "Developed and maintained end‑to‑end software solutions for clients ranging from startups to major institutions such as Tel Aviv University and the Ministry of Education. Delivered modern web applications using Angular and React, and mobile solutions with Capacitor (Ionic). Acted as Tech Lead, providing consultation and guidance to small teams within the company.",
+      "toBeContinued": false
+    },
+    {
+      "title": "T.N.M",
+      "subtitle": "Civil engineering projects",
+      "location": "Kibbutz Galuyot 120 Tel Aviv",
+      "date": "2020-2022",
+      "explanation": "Maintaining and upgrading a civil engineering project management app. The app included a user interface in addition to a chemical laboratories interface. My work included front-end architecture design and development (Angular  2+) and back-end (ASP.NET core)  REST api development.",
+      "toBeContinued": false
+    },
+    {
+      "title": "Dror Batey Hinuch",
+      "subtitle": "Educational games and software",
+      "location": "Kibbutz Galuyot 120 Tel Aviv",
+      "date": "2016-2020",
+      "explanation": "Design, characterising and implementing educational games. The games were adapted for different schools and student types, with the ability to replace the game’s content in a simple way for eachers without a technical background. The games and Educational software were developed mainly with vanilla Javascript, React and Node.js.",
+      "toBeContinued": false
+    }
+  ],
+  "Career": "Started as a Teacher ",
+  "Projects": [
+    {
+      "projectName": "ClassUp",
+      "url": "https://github.com/ChenPeleg/Classup",
+      "explanation": "This app was created to help teachers and educators teach with computers or smartphones. Built with React 16.",
+      "links": []
+    },
+    {
+      "projectName": "Medium Articles",
+      "url": "https://medium.com/@chenpeleg",
+      "explanation": "Articles about my experience with Google App Scripts, mainly productivity scripts examples.",
+      "links": []
+    },
+    {
+      "projectName": "Example Games",
+      "url": "https://chenpeleg.github.io/Games/",
+      "explanation": "A few of the games I designed and programmed:",
+      "links": [
         {
-            "title": "T.N.M",
-            "subtitle": "Civil engineering projects",
-            "location": "Kibbutz Galuyot 120 Tel Aviv",
-            "date": "2020-2022",
-            "explanation": "Maintaining and upgrading a civil engineering project management app. The app included a user interface in addition to a chemical laboratories interface. My work included front-end architecture design and development (Angular  2+) and back-end (ASP.NET core)  REST api development.",
-            "toBeContinued": true
+          "title": "chenpeleg.github.io/Games/Shooter/ShooterMarket.html",
+          "url": "https://chenpeleg.github.io/Games/Shooter/ShooterMarket.html"
         },
         {
-            "title": "Dror Batey Hinuch",
-            "subtitle": "School management systems",
-            "location": "Kibbutz Galuyot 120 Tel Aviv",
-            "date": "2016-2020",
-            "explanation": "Designing and building the student attendance and overall school management systems. The systems were implemented at three schools in the DBH network.",
-            "toBeContinued": true
-        },
-        {
-            "title": "",
-            "subtitle": "Educational software and Educational games Developer",
-            "location": "",
-            "date": "",
-            "explanation": "Design, characterising and implementing educational games. The games were adapted for different schools and student types, with the ability to replace the game’s content in a simple way for eachers without a technical background. The games and Educational software were developed mainly with vanilla Javascript, React and Node.js.",
-            "toBeContinued": false
+          "title": "chenpeleg.github.io/Games/Memory/index.html",
+          "url": "https://chenpeleg.github.io/Games/Memory/index.html"
         }
-    ],
-    "Career": "Started as a Teacher ",
-    "ProjectsDescription": "Github üzerinde bulunan projelerim.",
-    "Projects": [
-        {
-            "projectName": "ClassUp",
-            "url": "https://github.com/ChenPeleg/Classup",
-            "explanation": "This app was created to help teachers and educators teach with computers or smartphones. Built with React 16.",
-            "links": []
-        },
-        {
-            "projectName": "Medium Articles",
-            "url": "https://medium.com/@chenpeleg",
-            "explanation": "Articles about my experience with Google App Scripts, mainly productivity scripts examples.",
-            "links": []
-        },
-        {
-            "projectName": "Example Games",
-            "url": "https://chenpeleg.github.io/Games/",
-            "explanation": "A few of the games I designed and programmed:",
-            "links": [
-                {
-                    "title": "chenpeleg.github.io/Games/Shooter/ShooterMarket.html",
-                    "url": "https://chenpeleg.github.io/Games/Shooter/ShooterMarket.html"
-                },
-                {
-                    "title": "chenpeleg.github.io/Games/Memory/index.html",
-                    "url": "https://chenpeleg.github.io/Games/Memory/index.html"
-                }
-            ]
-        }
-    ],
-    "technology": [
-        {
-            "TechName": "Front-End Application development",
-            "TechExplanation": "Vanilla JavaScript, Angular 2+, React testing with Jest and Enzyme, Vue, general web-development (HTML, CSS, UI, etc.), Google apps scripts."
-        },
-        {
-            "TechName": "ASP.NET Core",
-            "TechExplanation": "Experience in working with Microsoft technologies like C# , ASP.NET WEB API, .Net Core, ADO.NET,  Microsoft SQL Server, IIS, TFS."
-        },
-        {
-            "TechName": "Node.js",
-            "TechExplanation": " RESTful API design and development, async architecture (callbacks,  promises, async- await)."
-        },
-        {
-            "TechName": "Additional fields",
-            "TechExplanation": " Git and Github actions, Python (Django), Linux bash, MongoDB compatible DBs, Aws: Ec2, S3. "
-        }
-    ],
-    "Skills": [
-        {
-            "skill": "javascript",
-            "percent": "90%"
-        }
-    ],
-    "Education": [
-        {
-            "title": "Beit-Berl college",
-            "content": "B.A in History and Informal Education",
-            "date": "2009 - 2013"
-        },
-        {
-            "title": "Software Development",
-            "content": "Self taught, with Udemy, Codecademy etc.",
-            "date": "2013 - 2018"
-        }
-    ],
-    "Languages": [
-        {
-            "language": "Hebrew",
-            "level": "Native"
-        }
-    ],
-    "Interests": [
-        {
-            "hobi": "Travelling"
-        }
-    ],
-    "personalInfo": [
-        {
-            "title": "Address",
-            "content": "HaRav Ya'akov Berman 10, Rehovot",
-            "north": "Kibbutz Eshbal, Misgav",
-            "center": "Kibbutz Eshbal, Misgav"
-        },
-        {
-            "title": "",
-            "content": "18/5/1981"
-        },
-        {
-            "title": "Languages",
-            "content": "Hebrew - Mother tongue, English - Fluent (Reading, writing and speaking)."
-        }
-    ]
+      ]
+    }
+  ],
+  "technology": [
+    {
+      "TechName": "Front-End Application development",
+      "TechExplanation": "Vanilla JavaScript, Angular 2+, React testing with Jest and Enzyme, Vue, general web-development (HTML, CSS, UI, etc.), Google apps scripts."
+    },
+    {
+      "TechName": "Front-End Architecture and Design",
+      "TechExplanation": "Provided consultation and guidance in front‑end architecture design, with a focus on modernizing legacy codebases. Specialized in upgrading applications to contemporary frameworks and implementing best practices through robust testing and CI/CD strategies. " },
+    {
+      "TechName": "ASP.NET Core",
+      "TechExplanation": "Experience in working with Microsoft technologies like C# , ASP.NET WEB API, .Net Core, ADO.NET,  Microsoft SQL Server, IIS, TFS."
+    },
+    {
+      "TechName": "Node.js",
+      "TechExplanation": " RESTful API design and development, async architecture (callbacks,  promises, async- await)."
+    },
+    {
+      "TechName": "Additional fields",
+      "TechExplanation": " Git and Github actions, Python (Django), Linux bash, MongoDB compatible DBs, Aws: Ec2, S3. "
+    }
+  ],
+  "Skills": [
+    {
+      "skill": "javascript",
+      "percent": "90%"
+    }
+  ],
+  "Education": [
+    {
+      "title": "Beit-Berl college",
+      "content": "B.A in History and Informal Education",
+      "date": "2009 - 2013"
+    },
+    {
+      "title": "Software Development",
+      "content": "Self taught, with Udemy, Codecademy etc.",
+      "date": "2013 - 2018"
+    }
+  ],
+  "Languages": [
+    {
+      "language": "Hebrew",
+      "level": "Native"
+    }
+  ],
+  "Interests": [
+    {
+      "hobi": "Travelling"
+    }
+  ],
+  "personalInfo": [
+    {
+      "title": "Address",
+      "content": "Kibbutz Eshbal, Misgav, IL",
+      "north": "Kibbutz Eshbal, Misgav",
+      "center": "Kibbutz Eshbal, Misgav"
+    },
+    {
+      "title": "",
+      "content": "18/5/1981"
+    },
+    {
+      "title": "Languages",
+      "content": "Hebrew - Mother tongue, English - Fluent (Reading, writing and speaking)."
+    }
+  ]
 }

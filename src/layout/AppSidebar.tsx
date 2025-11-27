@@ -13,7 +13,7 @@ export const AppSidebar = ({info}: { info: Information }) => {
 
                 <ProfileImage profileImage={profileImage} funnyImages={[p1, p2, p3, profileImage]}/>
             </div>
-            <div className={'md:contents flex flex-col items-center text-center p-4 pb-0">'}>
+            <div className={'md:contents flex flex-col items-center text-center md:p-4 px-4 pb-4 pb-0">'}>
                 <h1 className="name"> {info.name} </h1>
                 <h3 className="tagline">Front-End Developer</h3>
             </div>

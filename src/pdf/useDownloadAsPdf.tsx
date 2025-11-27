@@ -4,7 +4,9 @@ import {jsPDF} from 'jspdf';
 export const useDownloadAsPdf = () => {
     const downloadAsPdf = async () => {
       const doc = new jsPDF();
-        const rootElement = document.getElementById('cv-wrapper');
+      //assets/plugins/font-awesome/css/font-awesome.css
+        doc.addFont('assets/plugins/font-awesome/css/font-awesome.css', 'FontAwesome', 'normal', 'StandardEncoding');
+        doc.setFont('FontAwesome');     const rootElement = document.getElementById('cv-wrapper');
         console.log(rootElement);
        const result =  doc.html(rootElement as HTMLElement, {
              x: 0,

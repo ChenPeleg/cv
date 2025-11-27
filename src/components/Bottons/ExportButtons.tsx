@@ -16,9 +16,13 @@ const ExportButtons: React.FC<any> = () => {
 
     return (
         <div className="buttons-wrapper">
-            {!newPDfDownload  ? (    <a className="button" href={pdfCv} target="_blank" download title="Download CV" rel="noopener noreferrer"> <i
-                className="fa fa-download"></i> </a>) : (   <div className="button" onClick={downloadAsPdf} title="Download CV as PDF">
-                <i className="fa fa-download"></i></div>)}
+            {!newPDfDownload  ? (    <a className="button" href={pdfCv} target="_blank" download title="Download CV" rel="noopener noreferrer">
+
+                <i                className="fa fa-download"></i>
+
+            </a>) : (   <div className="button" onClick={downloadAsPdf} title="Download CV as PDF">
+                <i                     className="fa fa-download"></i>
+            </div>)}
 
             <div className="button" onClick={print} title="Print CV">
                 <i className="fa fa-print"></i></div>

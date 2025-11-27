@@ -13,7 +13,7 @@ export const AppIcon = React.forwardRef<
     <svg
       {...props}
       id={`icon-svg-${name}`}
-      className={ ' flex-shrink-0' +  className || 'h-6 w-6'}
+      className={ ' flex-shrink-0 ' +  className || 'h-6 w-6'}
       ref={ref}
     >
       <title>{alt || name}</title>

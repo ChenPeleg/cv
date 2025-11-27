@@ -8,10 +8,16 @@ import type {Information} from '../types/Information.ts';
 
 export const AppSidebar = ({info}: { info: Information }) => {
     return <div className="sidebar-wrapper">
-        <div className="profile-container">
-            <ProfileImage profileImage={profileImage} funnyImages={[p1, p2, p3, profileImage]}/>
-            <h1 className="name"> {info.name} </h1>
-            <h3 className="tagline">Front-End Developer</h3>
+        <div className="w-full flex flex-row md:flex-col items-center md:justify-center justify-center text-center p-4 pb-0">
+            <div className={' flex flex-col items-center text-center  md:mb-4  '}>
+
+                <ProfileImage profileImage={profileImage} funnyImages={[p1, p2, p3, profileImage]}/>
+            </div>
+            <div className={'md:contents flex flex-col items-center text-center p-4 pb-0">'}>
+                <h1 className="name"> {info.name} </h1>
+                <h3 className="tagline">Front-End Developer</h3>
+            </div>
+
         </div>
         <div className="aboutme-container container-block" style={{textAlign: 'justify'}}>
             <h2 className="container-block-title"><i className="fa fa-user"></i> About Me</h2>

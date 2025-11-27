@@ -8,7 +8,9 @@ class ExportButtons extends Component<any, any> {
     alert("down")
   }
   print = () => {
+   if (location.href.includes("localhost")) {
 
+   }
     window.print()
   }
   render() {

@@ -31,20 +31,20 @@ export const ProfileImage = (props: any) => {
     // border: var(--main-text-medium) 3px solid;
     // margin-bottom: 10px;
     // cursor: pointer;
-    return (<img onClick={imageClickHandler} className={`w-[110px] 
+    return (<img
+
+
+        style={{
+            border : ' #364153 4px solid',
+            background :
+                'radial-gradient(ellipse at top, rgb(160, 189, 184) 0%, rgb(193, 179, 197) 46%, rgb(191, 194, 236) 100%)'}}
+        onClick={imageClickHandler} className={`w-[110px] 
     h-[110px]
     md:w-[150px]
     md:h-[150px]
     lg:w-[180px]
     lg:h-[180px]
-    rounded-full
-    bg-gradient-to-b
-    from-cyan-200
-    via-purple-200
-    to-blue-200
-    border-4
-    border-solid
-    border-gray-700 
+    rounded-full 
     cursor-pointer
     object-cover 
     `}src={imgSrc}

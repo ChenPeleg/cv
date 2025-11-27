@@ -1,7 +1,14 @@
+import { jsPDF } from "jspdf";
+
+
+
+
 export const useDownloadAsPdf = () => {
     const downloadAsPdf = () => {
-        // Functionality to download content as PDF would be implemented here
-        console.log("Download as PDF functionality is not yet implemented.");
+        const doc = new jsPDF();
+
+        doc.text("Hello world!", 10, 10);
+        doc.save("a4.pdf");
     }
     return  {downloadAsPdf}
 }

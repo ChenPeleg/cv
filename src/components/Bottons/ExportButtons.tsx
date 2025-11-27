@@ -1,6 +1,7 @@
 import React from 'react';
 import pdfCv from '../../assets/ChenPelegCV.pdf'
 import {useDownloadAsPdf} from '../../pdf/useDownloadAsPdf.tsx';
+import {CustomIcon} from '../CircleIcon/CustomIcon.tsx';
 
 
 const ExportButtons: React.FC<any> = () => {
@@ -25,6 +26,7 @@ const ExportButtons: React.FC<any> = () => {
             </div>)}
 
             <div className="button" onClick={print} title="Print CV">
+                <CustomIcon name={'person'}/>
                 <i className="fa fa-print"></i></div>
         </div>);
 };

@@ -1,6 +1,6 @@
 import React from 'react'
-import spriteUrl from '../../../assets/skins/outline.svg?url'
-import type { IconProps } from './generated'
+import spriteUrl from '../assets/icons/sprite-outline.svg'
+import type { IconProps } from './all-icons.ts'
 
 export const AppIcon = React.forwardRef<
   SVGSVGElement,

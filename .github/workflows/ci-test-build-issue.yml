@@ -4,7 +4,7 @@ name: CI Tests
 on:
   push:
     branches:
-      - main
+      - test-build/**
   pull_request:
     branches: [ "main" ]
 

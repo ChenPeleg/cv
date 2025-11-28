@@ -1,25 +1,34 @@
-import { Component } from 'react';
-import pdfCv from "../../assets/ChenPelegCV.pdf"
+import React from 'react';
+import pdfCv from '../../assets/ChenPelegCV.pdf'
+import {useDownloadAsPdf} from '../../pdf/useDownloadAsPdf.tsx';
+import {CircleIcon} from '../CircleIcon/CircleIcon.tsx';
 
 
-class ExportButtons extends Component<any, any> {
+const ExportButtons: React.FC<any> = () => {
+    const {downloadAsPdf} = useDownloadAsPdf()
+    const newPDfDownload = location.href.includes('localhost')
+    const print = () => {
+        // if (location.href.includes('localhost')) {
+        //     return downloadAsPdf()
+        // }
+        window.print();
+    };
 
-  download() {
-    alert("down")
-  }
-  print = () => {
-
-    window.print()
-  }
-  render() {
     return (
-      <div className="buttons-wrapper">
-        <a className="button" href={pdfCv} target="_blank" download title="Download CV" rel="noopener noreferrer"> <i className="fa fa-download"></i> </a>
-        <div className="button" onClick={this.print} title="Print CV">
-          <i className="fa fa-print"></i></div >
-      </div >);
-  }
-}
+        <div className="absolute right-8 top-6 z-10 flex flex-row gap-5 print:hidden">
+            {!newPDfDownload  ? (    <a className="button cursor-pointer rounded-full shadow" href={pdfCv} target="_blank" download title="Download CV" rel="noopener noreferrer">
+
+                <CircleIcon name={'save'}/>
+
+            </a>) : (   <div className="button cursor-pointer rounded-full shadow" onClick={downloadAsPdf} title="Download CV as PDF">
+                <CircleIcon name={'save'}/>
+            </div>)}
+
+            <div className="button cursor-pointer rounded-full shadow" onClick={print} title="Print CV">
+                <CircleIcon name={'print'}/>
+
+            </div>
+        </div>);
+};
 
 export default ExportButtons;
-

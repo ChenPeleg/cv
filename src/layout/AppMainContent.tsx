@@ -3,6 +3,7 @@ import Experience from '../components/Experience.tsx';
 import Technologies from '../components/Technologies.tsx';
 import Projects from '../components/Projects/Projects.tsx';
 import PersonalInfo from '../components/PersonalInfo.tsx';
+import {CircleIcon} from '../components/CircleIcon/CircleIcon.tsx';
 
 export const AppMainContent = ({info}: { info: Information }) => {
     // @ts-ignore
@@ -10,30 +11,39 @@ export const AppMainContent = ({info}: { info: Information }) => {
 
 
         <section className="section experiences-section">
-            <h2 className="section-title"><i className="fa fa-briefcase"></i>Experience</h2>
+            <h2 className="section-title">
+                <CircleIcon name={'star'}/>
+
+                Experience</h2>
 
             {info.Experiences.map((item: any, key: any) => <Experience item={item} key={key}/>)}
 
         </section>
 
         <section className="skills-section section">
-            <h2 className="section-title"><i className="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
+            <h2 className="section-title">
+                <CircleIcon name={'box-3d'}/>
+
+                Skills &amp; Proficiency</h2>
 
             {info.technology.map((item: any, key: any) => <Technologies item={item} key={key}/>)}
-            {/* <div className="skillset">
-                            { info.Skills.map((item, key) => <Skill item={item} key={key} />)}
-                        </div> */}
+
         </section>
 
         <section className="section projects-section">
-            <h2 className="section-title"><i className="fa fa-archive"></i>Projects and articles</h2>
+            <h2 className="section-title">
+                <CircleIcon name={'folder'}/>
+                Projects and articles</h2>
 
 
             {info.Projects.map((item: any, key: any) => <Projects item={item} key={key}/>)}
         </section>
 
         <section className="section info-section">
-            <h2 className="section-title"><i className="fa fa-user-plus"></i>Personal information</h2>
+            <h2 className="section-title">
+                <CircleIcon name={'user-add'}/>
+                Personal information
+            </h2>
 
             {info.personalInfo.map((item: any, key: any) => <PersonalInfo item={item} key={key}/>)}
         </section>

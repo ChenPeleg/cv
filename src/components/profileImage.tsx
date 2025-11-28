@@ -23,7 +23,24 @@ export const ProfileImage = (props: any) => {
         setimgSrc(funnyImages[imagesState])
         console.log(imagesState, funnyImages[imagesState]);
     }
-    return (<img onClick={imageClickHandler} className="profile profile-image" src={imgSrc}
+
+    return (<img
+
+
+        style={{
+            border : ' #364153 4px solid',
+            background :
+                'radial-gradient(ellipse at top, rgb(160, 189, 184) 0%, rgb(193, 179, 197) 46%, rgb(191, 194, 236) 100%)'}}
+        onClick={imageClickHandler} className={`w-[110px] 
+    h-[110px]
+    md:w-[150px]
+    md:h-[150px]
+    lg:w-[180px]
+    lg:h-[180px]
+    rounded-full 
+    cursor-pointer
+    object-cover  
+    `}src={imgSrc}
         // {this.state.info.image}
         alt="Chen Peleg imag"
     />)

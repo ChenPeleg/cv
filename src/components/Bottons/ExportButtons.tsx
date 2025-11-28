@@ -8,7 +8,6 @@ const ExportButtons: React.FC<any> = () => {
     const {downloadAsPdf} = useDownloadAsPdf()
     const newPDfDownload = location.href.includes('localhost')
     const print = () => {
-
         window.print();
     };
 

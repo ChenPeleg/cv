@@ -3,6 +3,8 @@ import Experience from '../components/Experience.tsx';
 import Technologies from '../components/Technologies.tsx';
 import Projects from '../components/Projects/Projects.tsx';
 import PersonalInfo from '../components/PersonalInfo.tsx';
+import {ImageIcon} from '../icons/ImageIcon.tsx';
+import {CircleIcon} from '../components/CircleIcon/CircleIcon.tsx';
 
 export const AppMainContent = ({info}: { info: Information }) => {
     // @ts-ignore
@@ -17,7 +19,10 @@ export const AppMainContent = ({info}: { info: Information }) => {
         </section>
 
         <section className="skills-section section">
-            <h2 className="section-title"><i className="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
+            <h2 className="section-title">
+                <CircleIcon name={'linkedin'}/>
+
+                Skills &amp; Proficiency</h2>
 
             {info.technology.map((item: any, key: any) => <Technologies item={item} key={key}/>)}
             {/* <div className="skillset">

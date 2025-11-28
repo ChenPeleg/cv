@@ -24,13 +24,6 @@ export const ProfileImage = (props: any) => {
         console.log(imagesState, funnyImages[imagesState]);
     }
 
-    // width: 100px;
-    // border-radius: 50% 50%;
-    // background-color: darkcyan;
-    // background: radial-gradient(ellipse at top, rgb(160, 189, 184) 0%, rgb(193, 179, 197) 46%, rgb(191, 194, 236) 100%);
-    // border: var(--main-text-medium) 3px solid;
-    // margin-bottom: 10px;
-    // cursor: pointer;
     return (<img
 
 
@@ -46,7 +39,7 @@ export const ProfileImage = (props: any) => {
     lg:h-[180px]
     rounded-full 
     cursor-pointer
-    object-cover 
+    object-cover  
     `}src={imgSrc}
         // {this.state.info.image}
         alt="Chen Peleg imag"

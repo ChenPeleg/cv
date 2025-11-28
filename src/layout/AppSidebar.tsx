@@ -9,13 +9,13 @@ import {ImageIcon} from '../icons/ImageIcon.tsx';
 
 export const AppSidebar = ({info}: { info: Information }) => {
     return <div className="sidebar-wrapper">
-        <div className="w-full flex flex-row md:flex-col items-center md:justify-center justify-center text-center p-4 pb-0">
-            <div className={' flex flex-col items-center text-center  md:mb-4  '}>
+        <div className="print:max-h-24 w-full flex flex-row md:flex-col items-center md:justify-center justify-center text-center p-4 pb-0">
+            <div className={'print:hidden flex flex-col items-center text-center  md:mb-4  '}>
 
                 <ProfileImage profileImage={profileImage} funnyImages={[p1, p2, p3, profileImage]}/>
             </div>
             <div className={'md:contents flex flex-col items-center text-center md:p-4 px-4 pb-4 pb-0">'}>
-                <h1 className="name"> {info.name} </h1>
+                <h1 className="name print:text-[#000]"> {info.name} </h1>
                 <h3 className="tagline">Front-End Developer</h3>
             </div>
 

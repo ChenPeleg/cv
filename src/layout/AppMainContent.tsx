@@ -3,7 +3,6 @@ import Experience from '../components/Experience.tsx';
 import Technologies from '../components/Technologies.tsx';
 import Projects from '../components/Projects/Projects.tsx';
 import PersonalInfo from '../components/PersonalInfo.tsx';
-import {ImageIcon} from '../icons/ImageIcon.tsx';
 import {CircleIcon} from '../components/CircleIcon/CircleIcon.tsx';
 
 export const AppMainContent = ({info}: { info: Information }) => {
@@ -12,7 +11,10 @@ export const AppMainContent = ({info}: { info: Information }) => {
 
 
         <section className="section experiences-section">
-            <h2 className="section-title"><i className="fa fa-briefcase"></i>Experience</h2>
+            <h2 className="section-title">
+                <CircleIcon name={'book-check'}/>
+
+                Experience</h2>
 
             {info.Experiences.map((item: any, key: any) => <Experience item={item} key={key}/>)}
 
@@ -20,14 +22,12 @@ export const AppMainContent = ({info}: { info: Information }) => {
 
         <section className="skills-section section">
             <h2 className="section-title">
-                <CircleIcon name={'linkedin'}/>
+                <CircleIcon name={'box-alt'}/>
 
                 Skills &amp; Proficiency</h2>
 
             {info.technology.map((item: any, key: any) => <Technologies item={item} key={key}/>)}
-            {/* <div className="skillset">
-                            { info.Skills.map((item, key) => <Skill item={item} key={key} />)}
-                        </div> */}
+
         </section>
 
         <section className="section projects-section">

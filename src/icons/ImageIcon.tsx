@@ -59,7 +59,7 @@ export const ImageIcon = React.forwardRef<HTMLImageElement, React.ImgHTMLAttribu
             ref={ref}
             src={imageSrc}
             alt={alt || name}
-            className={className}
+            className={`${className} print:invert-75`}
             width={width}
             height={height}
             {...props}

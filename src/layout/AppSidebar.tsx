@@ -68,7 +68,7 @@ export const AppSidebar = ({info}: { info: Information }) => {
         <div className="education-container container-block">
             <h2 className="container-block-title flex flex-row items-center justify-start ps-8  text-center">
                <span className={'flex flex-row items-center justify-start w-full gap-1'}>
-                 <ImageIcon name={'box-alt'}/>
+                 <ImageIcon name={'mortarboard'}/>
              Education
               </span>
 

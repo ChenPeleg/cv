@@ -8,14 +8,14 @@ const ExportButtons: React.FC<any> = () => {
     const {downloadAsPdf} = useDownloadAsPdf()
     const newPDfDownload = location.href.includes('localhost')
     const print = () => {
-        if (location.href.includes('localhost')) {
-            return downloadAsPdf()
-        }
+        // if (location.href.includes('localhost')) {
+        //     return downloadAsPdf()
+        // }
         window.print();
     };
 
     return (
-        <div className="absolute right-8 top-6 z-10 flex flex-row gap-5">
+        <div className="absolute right-8 top-6 z-10 flex flex-row gap-5 print:hidden">
             {!newPDfDownload  ? (    <a className="button cursor-pointer rounded-full shadow" href={pdfCv} target="_blank" download title="Download CV" rel="noopener noreferrer">
 
                 <CircleIcon name={'save'}/>

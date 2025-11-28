@@ -209,6 +209,12 @@ p {
     margin-bottom: 15px;
     color: var(--main-text-light);
 }
+.ready-for-pdf .sidebar-wrapper .container-block-title {
+    letter-spacing: 1px;
+   img {
+       transform: translateY(6px);
+   }
+}
 
 .sidebar-wrapper .degree {
     font-size: 14px;

@@ -5,7 +5,11 @@
     --main-text-medium: rgb(3, 75, 32);
     --main-text-pale: rgb(121, 142, 170);
 }
-
+/* letterSpacing : "0.25px", wordSpacing : "0.5px"*/
+.ready-for-pdf {
+    letter-spacing: 0.2px;
+    word-spacing: 0.5px
+}
 a {
     word-wrap: break-word;
 }

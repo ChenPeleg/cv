@@ -1,5 +1,5 @@
 import React from 'react';
-import type { ImageIconProps } from './ImageIcons';
+import type {ImageIconProps} from './ImageIcons';
 
 
 import bookCheck from '../assets/images/book-check.png';
@@ -17,47 +17,51 @@ import save from '../assets/images/save.png';
 import userAdd from '../assets/images/user-add.png';
 import userAlt from '../assets/images/user-alt.png';
 import world from '../assets/images/world.png';
+import linkedin from '../assets/images/linkedin.png';
 
 const imageMap: Record<string, string> = {
-  'book-check': bookCheck,
-  'box-3d': box3d,
-  'box-alt': boxAlt,
-  comment,
-  diamond,
-  folder,
-  link,
-  message,
-  mortarboard,
-  phone,
-  print,
-  save,
-  'user-add': userAdd,
-  'user-alt': userAlt,
-  world,
+    'book-check': bookCheck,
+    'box-3d': box3d,
+    'box-alt': boxAlt,
+    linkedin,
+    comment,
+    diamond,
+    folder,
+    link,
+    message,
+    mortarboard,
+    phone,
+    print,
+    save,
+    'user-add': userAdd,
+    'user-alt': userAlt,
+    world,
 };
 
-export const ImageIcon = React.forwardRef<
-  HTMLImageElement,
-  React.ImgHTMLAttributes<HTMLImageElement> & ImageIconProps
->(({ name, alt, className = 'h-6 w-6', width, height, ...props }, ref) => {
-  const imageSrc = imageMap[name];
+export const ImageIcon = React.forwardRef<HTMLImageElement, React.ImgHTMLAttributes<HTMLImageElement> & ImageIconProps>(({
+                                                                                                                             name,
+                                                                                                                             alt,
+                                                                                                                             className = 'h-6 w-6',
+                                                                                                                             width,
+                                                                                                                             height,
+                                                                                                                             ...props
+                                                                                                                         }, ref) => {
+    const imageSrc = imageMap[name];
 
-  if (!imageSrc) {
-    console.warn(`Image icon "${name}" not found`);
-    return null;
-  }
+    if (!imageSrc) {
+        console.warn(`Image icon "${name}" not found`);
+        return null;
+    }
 
-  return (
-    <img
-      ref={ref}
-      src={imageSrc}
-      alt={alt || name}
-      className={className}
-      width={width}
-      height={height}
-      {...props}
-    />
-  );
+    return (<img
+            ref={ref}
+            src={imageSrc}
+            alt={alt || name}
+            className={className}
+            width={width}
+            height={height}
+            {...props}
+        />);
 });
 
 ImageIcon.displayName = 'ImageIcon';

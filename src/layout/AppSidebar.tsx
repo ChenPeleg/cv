@@ -40,14 +40,27 @@ export const AppSidebar = ({info}: { info: Information }) => {
 
             </h2>
             <ul className="list-unstyled contact-list">
-                <li className="email"><i className="fa fa-envelope"></i><a href={'mailto:' + info.email}>{info.email}</a></li>
-                <li className="phone"><i className="fa fa-phone"></i><a href={'tel:' + info.phone}>{info.phone}</a></li>
-                <li className="website"><i className="fa fa-globe"></i><a href={info.websiteUrl} target="_blank"
-                                                                          rel="noopener noreferrer">{info.website}</a></li>
-                <li className="medium"><i className="fa  fa-medium"></i><a href={info.mediumLink} target="_blank"
-                                                                           rel="noopener noreferrer">{info.mediumName} (Medium)</a></li>
-                <li className="linkedin"><i className="fa  fa-linkedin-square"></i><a href={info.linkedin} target="_blank"
-                                                                                      rel="noopener noreferrer">{info.linkedinName} (LinkedIn)</a>
+                <li className="email flex flex-row gap-2">
+                    <ImageIcon name={'message'}/>
+                    <a href={'mailto:' + info.email}>{info.email}</a></li>
+                <li className="phone flex flex-row gap-2">
+                    <ImageIcon name={'phone'}/>
+                    <a href={'tel:' + info.phone}>{info.phone}</a>
+                </li>
+                <li className="website flex flex-row gap-2">
+                    <ImageIcon name={'world'}/>
+
+                    <a href={info.websiteUrl} target="_blank"
+                       rel="noopener noreferrer">{info.website}</a>
+                </li>
+                <li className="medium flex flex-row gap-2">
+                    <ImageIcon name={'linkedin'}/>
+                    <a href={info.mediumLink} target="_blank"
+                       rel="noopener noreferrer">{info.mediumName} (Medium)</a></li>
+                <li className="linkedin flex flex-row gap-2">
+                    <ImageIcon name={'linkedin'}/>
+                    <a href={info.linkedin} target="_blank"
+                       rel="noopener noreferrer">{info.linkedinName} (LinkedIn)</a>
                 </li>
 
             </ul>

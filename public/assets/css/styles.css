@@ -80,7 +80,6 @@ p {
 
 .buttons-wrapper .button {
     display: inline-block;
-    padding: 5px;
     z-index: 10;
 }
 

@@ -12,7 +12,7 @@ import link from '../assets/images/link.png';
 import message from '../assets/images/message.png';
 import mortarboard from '../assets/images/mortarboard.png';
 import phone from '../assets/images/phone.png';
-import print from '../assets/images/print.png';
+import print from '../assets/images/printer.png';
 import printV2 from '../assets/images/print-v2.png';
 import save from '../assets/images/save.png';
 import userAdd from '../assets/images/user-add.png';

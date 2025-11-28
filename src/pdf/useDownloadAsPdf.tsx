@@ -8,6 +8,7 @@ export const useDownloadAsPdf = () => {
       //    doc.addFont('assets/plugins/font-awesome/css/font-awesome.css', 'FontAwesome', 'normal', 'StandardEncoding');
       //   doc.setFont('FontAwesome');
         const rootElement = document.getElementById('cv-wrapper');
+        rootElement?.classList.add('ready-for-pdf');
 
        const result =  doc.html(rootElement as HTMLElement, {
              x: 0,
@@ -17,6 +18,7 @@ export const useDownloadAsPdf = () => {
            autoPaging: 'text'
          });
         await result.save('chen-peleg.pdf')
+        rootElement?.classList.remove('ready-for-pdf');
     }
     return {downloadAsPdf}
 }

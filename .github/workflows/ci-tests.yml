@@ -3,8 +3,6 @@ name: CI Tests
 
 on:
   push:
-    branches:
-    branches-ignore: [ 'test-build/**' ]
 
   pull_request:
     branches: [ "main" ]

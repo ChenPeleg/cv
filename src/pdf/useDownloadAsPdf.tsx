@@ -8,7 +8,7 @@ export const useDownloadAsPdf = () => {
       //   doc.addFont('assets/plugins/font-awesome/css/font-awesome.css', 'FontAwesome', 'normal', 'StandardEncoding');
       //   doc.setFont('FontAwesome');
         const rootElement = document.getElementById('cv-wrapper');
-        console.log(rootElement);
+
        const result =  doc.html(rootElement as HTMLElement, {
              x: 0,
              y: 0,

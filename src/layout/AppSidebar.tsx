@@ -5,6 +5,7 @@ import p2 from '../assets/p2.png';
 import p3 from '../assets/p3.png';
 import Education from '../components/Education.tsx';
 import type {Information} from '../types/Information.ts';
+import {ImageIcon} from '../icons/ImageIcon.tsx';
 
 export const AppSidebar = ({info}: { info: Information }) => {
     return <div className="sidebar-wrapper">
@@ -20,7 +21,10 @@ export const AppSidebar = ({info}: { info: Information }) => {
 
         </div>
         <div className="aboutme-container container-block" style={{textAlign: 'justify'}}>
-            <h2 className="container-block-title"><i className="fa fa-user"></i> About Me</h2>
+            <h2 className="container-block-title">
+                {/*<ImageIcon name={'user-alt'}/>*/}
+                <i className="fa fa-user"></i>
+                About Me</h2>
             {info.aboutMe}
         </div>
 

@@ -215,6 +215,15 @@ p {
        transform: translateY(6px);
    }
 }
+.ready-for-pdf .main-wrapper  .section-title {
+    letter-spacing: 1px;
+    span:first-child {
+        transform: translateY(6px);
+    }
+}
+.ready-for-pdf .export-buttons {
+    visibility: hidden;
+}
 
 .sidebar-wrapper .degree {
     font-size: 14px;

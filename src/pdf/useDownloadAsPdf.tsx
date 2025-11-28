@@ -18,6 +18,7 @@ export const useDownloadAsPdf = () => {
            autoPaging: 'text'
          });
         await result.save('chen-peleg.pdf')
+        rootElement?.classList.remove('ready-for-pdf');
     }
     return {downloadAsPdf}
 }

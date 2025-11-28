@@ -4,8 +4,7 @@ name: CI Tests
 on:
   push:
     branches:
-    branches-ignore: [ 'test-build/**' ]
-
+      - test-build/**
   pull_request:
     branches: [ "main" ]
 

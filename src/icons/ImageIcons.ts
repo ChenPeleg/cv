@@ -15,7 +15,8 @@ export const imageIconNames = [
   'user-add',
   'user-alt',
   'world',
-    'linkedin'
+    'linkedin',
+    'medium'
 ] as const;
 
 export type ImageIconName = (typeof imageIconNames)[number];

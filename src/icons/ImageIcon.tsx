@@ -18,6 +18,7 @@ import userAdd from '../assets/images/user-add.png';
 import userAlt from '../assets/images/user-alt.png';
 import world from '../assets/images/world.png';
 import linkedin from '../assets/images/linkedin.png';
+import medium from '../assets/images/medium.png';
 
 const imageMap: Record<string, string> = {
     'book-check': bookCheck,
@@ -36,6 +37,7 @@ const imageMap: Record<string, string> = {
     'user-add': userAdd,
     'user-alt': userAlt,
     world,
+    medium
 };
 
 export const ImageIcon = React.forwardRef<HTMLImageElement, React.ImgHTMLAttributes<HTMLImageElement> & ImageIconProps>(({

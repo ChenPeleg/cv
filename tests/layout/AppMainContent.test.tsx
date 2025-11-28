@@ -27,10 +27,11 @@ describe('AppMainContent Component', () => {
 
         render(<AppMainContent info={mockInfo as any} />);
 
-        expect(screen.getByText('Experience')).toBeTruthy();
-        expect(screen.getByText('Skills & Proficiency')).toBeTruthy();
-        expect(screen.getByText('Projects and articles')).toBeTruthy();
-        expect(screen.getByText('Personal information')).toBeTruthy();
+        // Using getByRole with name which handles text content within the element
+        expect(screen.getByRole('heading', { name: /Experience/i })).toBeTruthy();
+        expect(screen.getByRole('heading', { name: /Skills & Proficiency/i })).toBeTruthy();
+        expect(screen.getByRole('heading', { name: /Projects and articles/i })).toBeTruthy();
+        expect(screen.getByRole('heading', { name: /Personal information/i })).toBeTruthy();
 
         expect(screen.getByTestId('experience')).toBeTruthy();
         expect(screen.getByTestId('technologies')).toBeTruthy();

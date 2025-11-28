@@ -13,7 +13,7 @@ const ExportButtons: React.FC<any> = () => {
     };
 
     return (
-        <div className="absolute right-8 lg:top-6 top-40 z-10 flex flex-row gap-5 print:hidden export-buttons">
+        <div className="absolute right-8 md:top-6 top-40 z-10 flex flex-row gap-5 print:hidden export-buttons">
             {!newPDfDownload  ? (    <a className="button cursor-pointer rounded-full shadow" href={pdfCv} target="_blank" download title="Download CV" rel="noopener noreferrer">
 
                 <CircleIcon name={'save'}/>

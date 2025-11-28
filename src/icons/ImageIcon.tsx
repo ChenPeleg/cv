@@ -13,6 +13,7 @@ import message from '../assets/images/message.png';
 import mortarboard from '../assets/images/mortarboard.png';
 import phone from '../assets/images/phone.png';
 import print from '../assets/images/print.png';
+import printV2 from '../assets/images/print-v2.png';
 import save from '../assets/images/save.png';
 import userAdd from '../assets/images/user-add.png';
 import userAlt from '../assets/images/user-alt.png';
@@ -34,6 +35,7 @@ const imageMap: Record<string, string> = {
     mortarboard,
     phone,
     print,
+    printV2,
     save,
     'user-add': userAdd,
     'user-alt': userAlt,

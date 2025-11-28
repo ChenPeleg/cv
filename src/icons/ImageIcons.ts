@@ -11,6 +11,7 @@ export const imageIconNames = [
   'mortarboard',
   'phone',
   'print',
+    'printV2',
   'save',
   'user-add',
   'user-alt',

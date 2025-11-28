@@ -21,15 +21,24 @@ export const AppSidebar = ({info}: { info: Information }) => {
 
         </div>
         <div className="aboutme-container container-block" style={{textAlign: 'justify'}}>
-            <h2 className="container-block-title">
-                {/*<ImageIcon name={'user-alt'}/>*/}
-                <i className="fa fa-user"></i>
-                About Me</h2>
+            <h2 className="container-block-title flex flex-row items-center justify-start ps-8  text-center">
+               <span className={'flex flex-row items-center justify-start w-full gap-2'}>
+                 <ImageIcon name={'user-alt'}/>
+                About Me
+              </span>
+
+            </h2>
             {info.aboutMe}
         </div>
 
         <div className="contact-container container-block">
-            <h2 className="container-block-title"><i className="fa fa-commenting"></i>Contact Me</h2>
+            <h2 className="container-block-title flex flex-row items-center justify-start ps-8  text-center">
+               <span className={'flex flex-row items-center justify-start w-full gap-2'}>
+                 <ImageIcon name={'comment'}/>
+              Contact me
+              </span>
+
+            </h2>
             <ul className="list-unstyled contact-list">
                 <li className="email"><i className="fa fa-envelope"></i><a href={'mailto:' + info.email}>{info.email}</a></li>
                 <li className="phone"><i className="fa fa-phone"></i><a href={'tel:' + info.phone}>{info.phone}</a></li>
@@ -44,8 +53,13 @@ export const AppSidebar = ({info}: { info: Information }) => {
             </ul>
         </div>
         <div className="education-container container-block">
+            <h2 className="container-block-title flex flex-row items-center justify-start ps-8  text-center">
+               <span className={'flex flex-row items-center justify-start w-full gap-2'}>
+                 <ImageIcon name={'box-alt'}/>
+             Education
+              </span>
 
-            <h2 className="container-block-title"><i className="fa fa-book"></i>Education</h2>
+            </h2>
             {info.Education.map((item: any, key: any) => <Education item={item} key={key}/>)}
         </div>
 

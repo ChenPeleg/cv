@@ -11,12 +11,12 @@ describe('Skill Component', () => {
 
         render(<Skill item={mockItem} />);
 
-        expect(screen.getByText('React')).toBeInTheDocument();
+        expect(screen.getByText('React')).toBeTruthy();
         // The percentage is in a data attribute, so we might check if the element exists
         // or check the style if it was applied as width (it's data-level in the component)
         const levelBar = screen.getByText((content, element) => {
              return element?.className === 'level-bar-inner' && element?.getAttribute('data-level') === '90%';
         });
-        expect(levelBar).toBeInTheDocument();
+        expect(levelBar).toBeTruthy();
     });
 });

@@ -26,5 +26,5 @@ jobs:
       - name: List files
         run: ls -la
       - name: List assets files
-      - run: ls -la src/assets/
+        run: ls -la src/assets/images
       - run: npm run build

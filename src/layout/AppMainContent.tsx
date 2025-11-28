@@ -12,7 +12,7 @@ export const AppMainContent = ({info}: { info: Information }) => {
 
         <section className="section experiences-section">
             <h2 className="section-title">
-                <CircleIcon name={'book-check'}/>
+                <CircleIcon name={'star'}/>
 
                 Experience</h2>
 
@@ -22,7 +22,7 @@ export const AppMainContent = ({info}: { info: Information }) => {
 
         <section className="skills-section section">
             <h2 className="section-title">
-                <CircleIcon name={'box-alt'}/>
+                <CircleIcon name={'box-3d'}/>
 
                 Skills &amp; Proficiency</h2>
 

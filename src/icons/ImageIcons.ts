@@ -1,4 +1,4 @@
-// Image icon names from assets/images folder
+
 export const imageIconNames = [
   'book-check',
   'box-3d',

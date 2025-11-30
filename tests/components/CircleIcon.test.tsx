@@ -6,6 +6,10 @@ describe('CircleIcon Component', () => {
     it('renders correctly', () => {
         const { container } = render(<CircleIcon name="save" />);
         expect(container.firstChild).toBeTruthy();
-        // Could check for class names or if ImageIcon is rendered
+        
+        // Check if it renders the ImageIcon
+        const img = container.querySelector('img');
+        expect(img).toBeTruthy();
+        expect(img?.getAttribute('alt')).toBe('save');
     });
 });

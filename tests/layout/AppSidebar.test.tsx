@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 import { describe, expect, it, vi } from 'vitest';
 import { AppSidebar } from '../../src/layout/AppSidebar';
 
-// Mock child components to avoid deep rendering issues and focus on Sidebar structure
+
 vi.mock('../../src/components/profileImage.tsx', () => ({
     ProfileImage: () => <div data-testid="profile-image">ProfileImage</div>
 }));
@@ -23,8 +23,7 @@ describe('AppSidebar Component', () => {
             mediumLink: 'http://medium.com/@johndoe',
             mediumName: 'johndoe',
             aboutMe: 'I am a developer.',
-            Education: [{}], // Mock education item
-            // Add other required props if any
+            Education: [{}],
         };
 
         render(<AppSidebar info={mockInfo as any} />);

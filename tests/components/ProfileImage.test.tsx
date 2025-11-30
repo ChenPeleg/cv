@@ -27,6 +27,6 @@ describe('ProfileImage Component', () => {
         const img = screen.getByRole('img');
         fireEvent.click(img);
 
-        expect(img.getAttribute('src')).toBe('funny2.jpg'); // The logic in component starts at index 1
+        expect(img.getAttribute('src')).toBe('funny2.jpg');
     });
 });

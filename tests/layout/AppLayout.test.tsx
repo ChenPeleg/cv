@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 import { describe, expect, it, vi } from 'vitest';
 import { AppLayout } from '../../src/layout/AppLayout';
 
-// Mock child components
+
 vi.mock('../../src/components/Bottons/ExportButtons.tsx', () => ({
     default: () => <div data-testid="export-buttons">ExportButtons</div>
 }));

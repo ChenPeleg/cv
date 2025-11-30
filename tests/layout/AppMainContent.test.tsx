@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 import { describe, expect, it, vi } from 'vitest';
 import { AppMainContent } from '../../src/layout/AppMainContent';
 
-// Mock child components
+
 vi.mock('../../src/components/Experience.tsx', () => ({
     default: () => <div data-testid="experience">Experience</div>
 }));
@@ -27,7 +27,6 @@ describe('AppMainContent Component', () => {
 
         render(<AppMainContent info={mockInfo as any} />);
 
-        // Using getByRole with name which handles text content within the element
         expect(screen.getByRole('heading', { name: /Experience/i })).toBeTruthy();
         expect(screen.getByRole('heading', { name: /Skills & Proficiency/i })).toBeTruthy();
         expect(screen.getByRole('heading', { name: /Projects and articles/i })).toBeTruthy();
